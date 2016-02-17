@@ -490,8 +490,8 @@ F 3 "" H 6000 5950 30  0000 C CNN
 	1    6000 5950
 	1    0    0    -1  
 $EndComp
-Text Notes 4150 4350 0    60   ~ 0
-BOOST CONVERTER
+Text Notes 3500 4350 0    60   ~ 0
+BOOST CONVERTER\nBased on circuit by Nick de Smith http://desmith.net/NMdS/Electronics/NixiePSU.html
 $Comp
 L R R3
 U 1 1 56BFA72F
@@ -1095,4 +1095,6 @@ F 3 "" H 3450 2750 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3550 2450 3550 2550
+Text Notes 4050 7400 0    60   ~ 0
+Q1 should be selected for low Qg, Rdson & Coss\nR6, R8, C7 and C9 must be rated at >240V\nD1 should be an ultra-fast (<50ns) recovery, 1A 240V)\nC1 & C6 should be a low ESR type (e.g., AVX TPS series)\nC1 & C2 should be sited very close to pin 2 (VCC) of U2\nC7 should be low ESR (<3ohms and rated >240V)\nIf you have stability issues, a 100pF 250 V ceramic cap\n  could be soldered on top of R8\nL1 should be 2A rated (e.g., EPCOS B82479 series\n  for 50mA output\nR5 must be capable of handling at least 2A
 $EndSCHEMATC
