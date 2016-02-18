@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ryan\Documents\dev\kicad\hv_signal_generator\hv_signal_generator.sch)
-    (date "2/17/2016 11:51:01 AM")
+    (date "2/17/2016 1:15:01 PM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,6 +18,8 @@
     (comp (ref LED2)
       (value +12V)
       (footprint LEDs:LED_0805)
+      (fields
+        (field (name Mfg_Part_No) APL3015SGC-F01))
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 52E82588))
@@ -30,6 +32,8 @@
     (comp (ref IC1)
       (value ATMEG328PU)
       (footprint Housings_DIP:DIP-28_W7.62mm_LongPads)
+      (fields
+        (field (name Mfg_Part_No) ATMEGA328P-PU))
       (libsource (lib atmel) (part ATMEGA8-P))
       (sheetpath (names /) (tstamps /))
       (tstamp 52E82590))
@@ -60,12 +64,16 @@
     (comp (ref C10)
       (value 22pF)
       (footprint Capacitors_SMD:C_1206)
+      (fields
+        (field (name Mfg_Part_No) CL31C220JCCNNNC))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 52E82598))
     (comp (ref C11)
       (value 22pF)
       (footprint Capacitors_SMD:C_1206)
+      (fields
+        (field (name Mfg_Part_No) CL31C220JCCNNNC))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 52E82599))
@@ -144,6 +152,8 @@
     (comp (ref R6)
       (value 2M)
       (footprint Resistors_SMD:R_1206)
+      (fields
+        (field (name Mfg_Part_No) HVCB1206KDL2M00))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56BE9608))
@@ -186,12 +196,16 @@
     (comp (ref LED1)
       (value +5V)
       (footprint LEDs:LED_0805)
+      (fields
+        (field (name Mfg_Part_No) APL3015SGC-F01))
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 56BEF996))
     (comp (ref R1)
       (value 1k)
       (footprint Resistors_SMD:R_1206)
+      (fields
+        (field (name Mfg_Part_No) RMCF1206FT1K00))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56BEF99C))
@@ -240,6 +254,8 @@
     (comp (ref R8)
       (value 2M)
       (footprint Resistors_SMD:R_1206)
+      (fields
+        (field (name Mfg_Part_No) HVCB1206KDL2M00))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56C13B29))
@@ -688,14 +704,14 @@
         (pin (num 3) (name 3) (type input))
         (pin (num 4) (name 4) (type input)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical interface)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\interface.lib"))
     (library (logical atmel)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical interface)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\interface.lib"))
     (library (logical wheelerlab)
       (uri C:\Users\ryan\Documents\dev\kicad\hv_signal_generator\library\wheelerlab.lib)))
   (nets
