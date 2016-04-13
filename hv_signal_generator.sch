@@ -76,8 +76,6 @@ F 4 "RMCF1206FT2K00" H 2150 1050 60  0001 C CNN "Mfg_Part_No"
 	1    2150 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 6800 2    60   Input ~ 0
-VOUT
 Text GLabel 5050 1600 0    60   Input ~ 0
 GND
 Text GLabel 2000 4350 0    60   Input ~ 0
@@ -305,7 +303,7 @@ F 2 "Pin_Headers:Pin_Header_Angled_1x06" H 1150 3900 60  0001 C CNN
 F 3 "" H 1150 3900 60  0000 C CNN
 F 4 "PRPC006SBAN-M71RC" H 1150 3900 60  0001 C CNN "Mfg_Part_No"
 	1    1150 3900
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch_DPST SW1
@@ -348,7 +346,7 @@ U 1 1 56BE9603
 P 5700 4500
 F 0 "L1" V 5650 4500 50  0000 C CNN
 F 1 "100uH" V 5800 4500 50  0000 C CNN
-F 2 "Inductors:self_cms_we-pd3" H 5700 4500 60  0001 C CNN
+F 2 "footprints:DU1971" H 5700 4500 60  0001 C CNN
 F 3 "" H 5700 4500 60  0000 C CNN
 F 4 "B82479-A1-104M" H 5700 4500 60  0001 C CNN "Mfg_Part_No"
 	1    5700 4500
@@ -372,7 +370,7 @@ U 1 1 56BE9606
 P 6650 5400
 F 0 "C7" H 6675 5500 50  0000 L CNN
 F 1 "10uF,250V" H 6675 5300 50  0000 C TNN
-F 2 "Capacitors_SMD:c_elec_8x10.5" H 6688 5250 30  0001 C CNN
+F 2 "Capacitors_SMD:c_elec_10x10" H 6688 5250 30  0001 C CNN
 F 3 "" H 6650 5400 60  0000 C CNN
 F 4 "EEV-EB2E100Q" H 6650 5400 60  0001 C CNN "Mfg_Part_No"
 	1    6650 5400
@@ -550,18 +548,6 @@ Text GLabel 4850 3500 2    60   Input ~ 0
 Text GLabel 6950 3000 2    60   Input ~ 0
 D4/SHDN
 $Comp
-L HV513 U1
-U 1 1 56C01A7B
-P 2150 6750
-F 0 "U1" H 2150 6900 60  0000 C CNN
-F 1 "HV513" H 2150 6700 60  0000 C CNN
-F 2 "footprints:SOW-24" H 2900 6600 60  0001 C CNN
-F 3 "" H 2900 6600 60  0000 C CNN
-F 4 "HV513WG-G" H 2150 6750 60  0001 C CNN "Mfg_Part_No"
-	1    2150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L BNC P4
 U 1 1 56C01A7F
 P 10350 2450
@@ -573,38 +559,6 @@ F 4 "5-1814400-1" H 10350 2450 60  0001 C CNN "Mfg_Part_No"
 	1    10350 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 6200 2    60   Input ~ 0
-HV
-Text GLabel 1500 6300 0    60   Input ~ 0
-+5V
-Text GLabel 1500 7200 0    60   Input ~ 0
-GND
-$Comp
-L R R18
-U 1 1 56C01A83
-P 3300 7050
-F 0 "R18" V 3380 7050 50  0000 C CNN
-F 1 "10k" V 3300 7050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM25mm" V 3230 7050 30  0001 C CNN
-F 3 "" H 3300 7050 30  0000 C CNN
-F 4 "55J10KE" H 3300 7050 60  0001 C CNN "Mfg_Part_No"
-	1    3300 7050
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C4
-U 1 1 56C01A85
-P 3050 6800
-F 0 "C4" V 2950 6800 50  0000 L CNN
-F 1 "0.1uF" V 3150 6700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1812" H 3050 6800 60  0001 C CNN
-F 3 "" H 3050 6800 60  0000 C CNN
-F 4 "GRM43DR72J104KW01L" H 3050 6800 60  0001 C CNN "Mfg_Part_No"
-	1    3050 6800
-	0    1    1    0   
-$EndComp
-Text GLabel 1500 7100 0    60   Input ~ 0
-D9/S_MOSI
 Text GLabel 6950 1400 2    60   Input ~ 0
 D10/MCP41050_CS
 Text GLabel 4350 3850 0    60   Input ~ 0
@@ -613,14 +567,7 @@ Text Notes 4250 3450 0    60   ~ 0
 I2C PULLUPS
 Text GLabel 4650 5300 0    60   Input ~ 0
 D4/SHDN
-Text GLabel 3600 7250 2    60   Input ~ 0
-GND
-NoConn ~ 1500 6400
-Text GLabel 1500 6700 0    60   Input ~ 0
-D8/S_SCK
 Text GLabel 6950 3300 2    60   Input ~ 0
-D7/HV513_CS
-Text GLabel 1500 6800 0    60   Input ~ 0
 D7/HV513_CS
 Text GLabel 6950 2900 2    60   Input ~ 0
 D3/A2/CURRENT_SENSE
@@ -628,10 +575,6 @@ Text GLabel 6950 1900 2    60   Input ~ 0
 A0/SHORT_CHK
 Text GLabel 6950 2000 2    60   Input ~ 0
 A1/HV_FB
-NoConn ~ 1500 6600
-NoConn ~ 1500 7000
-Text GLabel 1500 6500 0    60   Input ~ 0
-D6/BL
 Text GLabel 8050 5800 2    60   Input ~ 0
 D10/MCP41050_CS
 Text GLabel 6950 3200 2    60   Input ~ 0
@@ -804,8 +747,6 @@ Text GLabel 8900 2700 0    60   Input ~ 0
 GND
 Text GLabel 10350 2650 2    60   Input ~ 0
 GND
-Text Notes 1700 6050 0    60   ~ 0
-SQUARE WAVE
 Text Notes 8550 1600 0    60   ~ 0
 OUTPUT SELECT
 NoConn ~ 1350 3050
@@ -831,7 +772,6 @@ Text GLabel 8050 5200 2    60   Input ~ 0
 GND
 Text GLabel 4650 3850 2    60   Input ~ 0
 A5/SCL
-NoConn ~ 1500 6900
 $Comp
 L CONN_01X02 P5
 U 1 1 56C3639B
@@ -972,29 +912,6 @@ Wire Wire Line
 	7050 4800 7050 5050
 Wire Wire Line
 	7050 5350 7050 5600
-Wire Wire Line
-	2850 6200 2850 6300
-Wire Wire Line
-	3150 6800 3600 6800
-Connection ~ 3300 6800
-Wire Wire Line
-	2850 6400 2850 7100
-Connection ~ 2850 6600
-Connection ~ 2850 6700
-Connection ~ 2850 6800
-Connection ~ 2850 6900
-Connection ~ 2850 7000
-Connection ~ 2850 7100
-Connection ~ 2850 6400
-Connection ~ 2850 6500
-Wire Wire Line
-	2950 6800 2850 6800
-Wire Wire Line
-	2850 7200 2850 7300
-Wire Wire Line
-	2850 7250 3600 7250
-Connection ~ 2850 7250
-Connection ~ 3300 7250
 Connection ~ 9050 6250
 Connection ~ 9050 4800
 Wire Wire Line
@@ -1044,10 +961,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 2300 8750 2400
 Wire Wire Line
-	3300 6900 3300 6800
-Wire Wire Line
-	3300 7200 3300 7250
-Wire Wire Line
 	3800 6250 10250 6250
 Wire Wire Line
 	6500 4800 10100 4800
@@ -1084,22 +997,6 @@ F 4 "T494D106M025AT" H 3800 4950 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Wire Wire Line
 	5200 4900 5200 4800
-$Comp
-L C C12
-U 1 1 56C4B14D
-P 1500 5950
-F 0 "C12" V 1450 6000 50  0000 L CNN
-F 1 "0.1uF" V 1350 5900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 1500 5950 60  0001 C CNN
-F 3 "" H 1500 5950 60  0001 C CNN
-F 4 "C1206C104K5RACTU" H 1500 5950 60  0001 C CNN "Mfg_Part_No"
-	1    1500 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1500 6300 1500 6100
-Text GLabel 1500 5800 0    60   Input ~ 0
-GND
 Connection ~ 4650 3500
 NoConn ~ 1350 4050
 Wire Wire Line
