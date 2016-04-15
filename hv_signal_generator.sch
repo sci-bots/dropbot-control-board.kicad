@@ -568,7 +568,7 @@ I2C PULLUPS
 Text GLabel 4650 5300 0    60   Input ~ 0
 D4/SHDN
 Text GLabel 6950 3300 2    60   Input ~ 0
-D7/HV513_CS
+D7
 Text GLabel 6950 2900 2    60   Input ~ 0
 D3/A2/CURRENT_SENSE
 Text GLabel 6950 1900 2    60   Input ~ 0
@@ -578,7 +578,7 @@ A1/HV_FB
 Text GLabel 8050 5800 2    60   Input ~ 0
 D10/MCP41050_CS
 Text GLabel 6950 3200 2    60   Input ~ 0
-D6/BL
+D6
 Text GLabel 6950 3100 2    60   Input ~ 0
 D5/LED
 Text GLabel 8050 5600 2    60   Input ~ 0
@@ -1047,4 +1047,46 @@ Wire Wire Line
 	3550 2450 3550 2550
 Text Notes 4050 7400 0    60   ~ 0
 Q1 should be selected for low Qg, Rdson & Coss\nR6, R8, C7 and C9 must be rated at >240V\nD1 should be an ultra-fast (<50ns) recovery, 1A 240V)\nC1 & C6 should be a low ESR type (e.g., AVX TPS series)\nC1 & C2 should be sited very close to pin 2 (VCC) of U2\nC7 should be low ESR (<3ohms and rated >240V)\nIf you have stability issues, a 100pF 250 V ceramic cap\n  could be soldered on top of R8\nL1 should be 2A rated (e.g., EPCOS B82479 series\n  for 50mA output\nR5 must be capable of handling at least 2A
+$Comp
+L CONN_01X05 P7
+U 1 1 5710F690
+P 1250 6250
+F 0 "P7" H 1250 6550 50  0000 C CNN
+F 1 "CONN_01X05" V 1350 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 1250 6250 60  0001 C CNN
+F 3 "" H 1250 6250 60  0000 C CNN
+	1    1250 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P8
+U 1 1 5710F76D
+P 1250 6850
+F 0 "P8" H 1250 7050 50  0000 C CNN
+F 1 "CONN_01X03" V 1350 6850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1250 6850 60  0001 C CNN
+F 3 "" H 1250 6850 60  0000 C CNN
+	1    1250 6850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1450 6950 2    60   Input ~ 0
+HV
+Text GLabel 1450 6750 2    60   Input ~ 0
+GND
+Text GLabel 1450 6850 2    60   Input ~ 0
+VOUT
+Text GLabel 1450 6350 2    60   Input ~ 0
+D7
+Text GLabel 1450 6250 2    60   Input ~ 0
+D6
+Text GLabel 1450 6050 2    60   Input ~ 0
++12V
+Text GLabel 1450 6150 2    60   Input ~ 0
+GND
+Text GLabel 1450 6450 2    60   Input ~ 0
++5V
+Text Notes 1150 5850 0    60   ~ 0
+HV SIGNAL GENERATOR HEADERS
+Text Notes 1800 6350 0    60   ~ 0
+Breakout board switches HV\nto produce an AC signal (VOUT)
 $EndSCHEMATC
