@@ -14,10 +14,10 @@
 
   (page USLetter)
   (title_block
-    (title "HV signal generator board")
-    (date 2016-04-16)
-    (rev 0.3)
-    (company "Ryan Fobel")
+    (title "DropBot control board")
+    (date 2016-09-20)
+    (rev 0.1)
+    (company Sci-bots)
   )
 
   (layers
@@ -1818,7 +1818,7 @@
     )
   )
 
-  (gr_text "HV signal generator board v0.3" (at 18.161 70.231) (layer F.SilkS)
+  (gr_text "DropBot control board v0.1" (at 18.161 70.231) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_line (start 100.076 71.374) (end 100.076 15.24) (angle 90) (layer Edge.Cuts) (width 0.381))
