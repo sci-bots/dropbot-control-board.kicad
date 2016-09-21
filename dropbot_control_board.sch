@@ -420,10 +420,10 @@ F 4 "AQW216EHA" H 10000 1500 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Text GLabel 10400 1250 2    60   Input ~ 0
 VOUT
-Text GLabel 5550 1400 0    60   Input ~ 0
+Text GLabel 5600 1400 0    60   Input ~ 0
 D3/OUTPUT_SELECT
 Text GLabel 9350 800  2    60   Input ~ 0
-A3/OUTPUT_SELECT
+D3/OUTPUT_SELECT
 $Comp
 L HV7802 U4
 U 1 1 56BEB19A
@@ -530,9 +530,7 @@ Text Notes 8950 650  0    60   ~ 0
 OUTPUT SELECT
 NoConn ~ 1350 3050
 Text GLabel 10900 6350 0    60   Input ~ 0
-A2/CURRENT_SENSE
-Text GLabel 7600 2300 2    60   Input ~ 0
-A2/CURRENT_SENSE
+A2/HV507_CS
 Text GLabel 10400 1850 2    60   Input ~ 0
 A0/SHORT_CHK
 $Comp
@@ -947,11 +945,16 @@ Text GLabel 6650 3300 3    60   Input ~ 0
 GND
 NoConn ~ 6800 3300
 NoConn ~ 6950 3300
-NoConn ~ 7600 2150
 NoConn ~ 7600 1700
 NoConn ~ 7600 1550
 NoConn ~ 7600 1400
 NoConn ~ 7600 1250
 NoConn ~ 7600 950 
 NoConn ~ 7600 800 
+Text GLabel 6500 5750 2    60   Input ~ 0
+A3/MAX1771_CS
+Text GLabel 7600 2300 2    60   Input ~ 0
+A2/HV507_CS
+Text GLabel 7600 2150 2    60   Input ~ 0
+A3/MAX1771_CS
 $EndSCHEMATC
