@@ -837,7 +837,6 @@ $EndComp
 NoConn ~ 1350 2750
 NoConn ~ 1350 2850
 NoConn ~ 1350 2950
-NoConn ~ 1350 2250
 $Comp
 L 2N7002 Q3
 U 1 1 57118EC1
@@ -957,4 +956,6 @@ Text GLabel 7600 2300 2    60   Input ~ 0
 A2/HV507_CS
 Text GLabel 7600 2150 2    60   Input ~ 0
 A3/MAX1771_CS
+Text GLabel 1350 2250 2    60   Input ~ 0
++5V
 $EndSCHEMATC
