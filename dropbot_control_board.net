@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/ryan/Documents/dev/kicad/dropbot-control-board/dropbot_control_board.sch)
-    (date "9/22/2016 9:45:07 AM")
+    (date "9/25/2016 1:19:01 PM")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -364,7 +364,7 @@
     (comp (ref U6)
       (value NCP5304)
       (footprint SMD_Packages:SOIC-8-N)
-      (libsource (lib dropbot_control_board-cache) (part NCP5304))
+      (libsource (lib wheelerlab) (part NCP5304))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E31446))
     (comp (ref C4)
@@ -874,7 +874,7 @@
         (pin (num 12) (name VIND+) (type input))
         (pin (num 13) (name VIND-) (type input))
         (pin (num 14) (name VOUTD) (type input))))
-    (libpart (lib dropbot_control_board-cache) (part NCP5304)
+    (libpart (lib wheelerlab) (part NCP5304)
       (fields
         (field (name Reference) U)
         (field (name Value) NCP5304))
@@ -958,16 +958,14 @@
         (pin (num 34) (name A10) (type BiDi))
         (pin (num 35) (name AREF) (type input)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical interface)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\interface.lib"))
     (library (logical wheelerlab)
       (uri C:\Users\ryan\Documents\dev\kicad\dropbot-control-board\library\wheelerlab.lib))
-    (library (logical dropbot_control_board-cache)
-      (uri C:\Users\ryan\Documents\dev\kicad\dropbot-control-board\dropbot_control_board-cache.lib)))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical interface)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\interface.lib")))
   (nets
     (net (code 1) (name "Net-(C5-Pad1)")
       (node (ref U2) (pin 5))

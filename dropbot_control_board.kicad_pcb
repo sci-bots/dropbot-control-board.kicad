@@ -3,7 +3,7 @@
   (general
     (links 198)
     (no_connects 0)
-    (area 24.193499 23.558499 108.140501 93.154501)
+    (area 24.193499 23.459 108.140501 93.16242)
     (thickness 1.6002)
     (drawings 8)
     (tracks 709)
@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -4535,8 +4535,8 @@
   (segment (start 100.965 37.338) (end 100.965 35.372) (width 0.254) (layer Front) (net 2) (tstamp 57E37333))
   (segment (start 92.329 45.974) (end 100.965 37.338) (width 0.254) (layer Front) (net 2) (tstamp 57E37331))
   (segment (start 81.346 42.672) (end 81.346 40.259) (width 0.254) (layer Front) (net 2))
-  (segment (start 91.202 71.374) (end 91.202 59.293) (width 0.254) (layer Front) (net 2))
   (segment (start 91.202 59.293) (end 92.329 58.166) (width 0.254) (layer Front) (net 2) (tstamp 57E36C1E))
+  (segment (start 91.202 71.374) (end 91.202 59.293) (width 0.254) (layer Front) (net 2))
   (segment (start 89.441 74.295) (end 89.441 73.135) (width 0.254) (layer Front) (net 2))
   (segment (start 89.441 73.135) (end 91.202 71.374) (width 0.254) (layer Front) (net 2) (tstamp 57E3496A))
   (segment (start 79.883 79.74) (end 81.866 79.74) (width 0.254) (layer Front) (net 3))
