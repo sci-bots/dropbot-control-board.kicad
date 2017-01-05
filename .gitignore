@@ -2,4 +2,4 @@ _autosave*
 *bak
 *cache.*
 *rescue.lib
-dropbot_control_board.xml
+*.xml

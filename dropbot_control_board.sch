@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:dropbot_control_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -330,7 +329,7 @@ F 0 "U4" H 10050 5250 60  0000 C CNN
 F 1 "HV7802" H 10050 5600 60  0000 C CNN
 F 2 "footprints:MSOP-8" H 10050 5600 60  0001 C CNN
 F 3 "" H 10050 5600 60  0000 C CNN
-F 4 " HV7802MG-G" H 10050 5600 60  0001 C CNN "Mfg_Part_No"
+F 4 "HV7802MG-G" H 10050 5600 60  0001 C CNN "Mfg_Part_No"
 	1    10050 5600
 	1    0    0    -1  
 $EndComp
@@ -1180,7 +1179,8 @@ P 8050 5750
 F 0 "U3" H 7800 6100 50  0000 L CNN
 F 1 "CAT5171" H 8100 6100 50  0000 L CNN
 F 2 "WheelerLab:SOT-23-8" H 8050 5750 50  0001 C CNN
-F 3 "" H 8050 5750 50  0000 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/CAT5171-D.PDF" H 8050 5750 50  0001 C CNN
+F 4 "CAT5171TBI-50GT3" H 8050 5750 60  0001 C CNN "Mfg_Part_No"
 	1    8050 5750
 	-1   0    0    -1  
 $EndComp
@@ -1275,7 +1275,8 @@ P 9750 1000
 F 0 "U9" H 9750 1050 50  0000 C CNN
 F 1 "74AHC1G32" H 9790 975 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-353" H 9750 1000 50  0001 C CNN
-F 3 "" H 9750 1000 50  0000 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74AHC_AHCT1G32.pdf" H 9750 1000 50  0001 C CNN
+F 4 "74AHC1G32GW,125" H 9750 1000 60  0001 C CNN "Mfg_Part_No"
 	1    9750 1000
 	1    0    0    -1  
 $EndComp
@@ -1306,7 +1307,8 @@ P 5200 3850
 F 0 "U10" H 5205 4095 60  0000 C CNN
 F 1 "W25Q64FV" H 5200 3595 60  0000 C CNN
 F 2 "SMD_Packages:SOIC-8-N" H 5190 3845 60  0001 C CNN
-F 3 "" H 5190 3845 60  0000 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q64fv%20revq%2006142016.pdf" H 5190 3845 60  0001 C CNN
+F 4 "W25Q64FVSSIG TR" H 5200 3850 60  0001 C CNN "Mfg_Part_No"
 	1    5200 3850
 	1    0    0    -1  
 $EndComp
