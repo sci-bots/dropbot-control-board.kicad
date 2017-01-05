@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 11000 8500
@@ -643,7 +642,7 @@ F 0 "IC1" H 2200 5100 60  0000 C CNN
 F 1 "MCP6024" H 2210 4100 60  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm" H 2200 4600 60  0001 C CNN
 F 3 "" H 2200 4600 60  0000 C CNN
-F 4 "MCP6024T-I/SL" H 2200 4600 60  0001 C CNN "Mfg_Part_No"
+F 4 "MCP6024-I/P" H 2200 4600 60  0001 C CNN "Mfg_Part_No"
 	1    2200 4600
 	1    0    0    -1  
 $EndComp
