@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "DropBot control board"
-Date "2017-03-21"
-Rev "3.2"
+Date "2017-04-04"
+Rev "3.3"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -472,7 +472,6 @@ Text GLabel 8450 1500 0    60   Input ~ 0
 NoConn ~ 6450 3850
 NoConn ~ 6900 3850
 NoConn ~ 7050 3850
-NoConn ~ 7700 1950
 NoConn ~ 7700 1800
 NoConn ~ 7700 1500
 NoConn ~ 7700 1350
@@ -991,9 +990,9 @@ U 1 1 58BC51B6
 P 850 4100
 F 0 "F2" H 810 4160 50  0000 L CNN
 F 1 "PTC 30mA" H 700 4000 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 850 4100 50  0001 C CNN
+F 2 "Resistors_SMD:R_1210" H 850 4100 50  0001 C CNN
 F 3 "" H 850 4100 50  0000 C CNN
-F 4 "PRG21BB220MB1RK" H 850 4100 60  0001 C CNN "Mfg_Part_No"
+F 4 "B59807A90A62" H 850 4100 60  0001 C CNN "Mfg_Part_No"
 	1    850  4100
 	0    1    1    0   
 $EndComp
@@ -1909,4 +1908,6 @@ Text GLabel 4300 2950 0    60   Input ~ 0
 CHASIS_GND
 Wire Wire Line
 	4300 2750 4300 2950
+Text GLabel 7700 1950 2    60   Input ~ 0
+HV_OE
 $EndSCHEMATC

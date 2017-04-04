@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "DropBot control board"
-Date "2017-03-21"
-Rev "3.2"
+Date "2017-04-04"
+Rev "3.3"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
