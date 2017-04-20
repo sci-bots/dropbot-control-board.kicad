@@ -36,7 +36,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "DropBot control board"
-Date "2017-04-05"
+Date "2017-04-20"
 Rev "3.3"
 Comp "Sci-Bots Inc."
 Comment1 ""
@@ -989,7 +989,7 @@ L F_Small F2
 U 1 1 58BC51B6
 P 850 4100
 F 0 "F2" H 810 4160 50  0000 L CNN
-F 1 "PTC 30mA" H 700 4000 50  0000 L CNN
+F 1 "PTC 15mA" H 700 4000 50  0000 L CNN
 F 2 "Resistors_SMD:R_1210" H 850 4100 50  0001 C CNN
 F 3 "" H 850 4100 50  0000 C CNN
 F 4 "B59807A90A62" H 850 4100 60  0001 C CNN "Mfg_Part_No"
