@@ -117,10 +117,10 @@ L D D1
 U 1 1 56BE9605
 P 6900 4850
 F 0 "D1" H 6900 4950 50  0000 C CNN
-F 1 "ES3J" H 6900 4750 50  0000 C CNN
+F 1 "400V, 4A, <50ns" H 6900 4750 50  0000 C CNN
 F 2 "Diodes_SMD:SMC_Standard" H 6900 4850 60  0001 C CNN
 F 3 "" H 6900 4850 60  0000 C CNN
-F 4 "ES3J" H 6900 4850 60  0001 C CNN "Mfg_Part_No"
+F 4 "VS-4EGU06-M3/5BT" H 6900 4850 60  0001 C CNN "Mfg_Part_No"
 	1    6900 4850
 	-1   0    0    1   
 $EndComp
@@ -437,7 +437,7 @@ $EndComp
 Text GLabel 5450 4950 0    60   Input ~ 0
 GND
 Text Notes 7750 4750 0    60   ~ 0
-Q1 should be selected for low Qg, Rdson & Coss\nR6, R8, and C7 must be rated at >400V\nD1 should be an ultra-fast (<50ns) recovery, 3A, 400V\nC1 & C6 should be a low ESR type (e.g., AVX TPS series)\nC1 & C2 should be sited very close to pin 2 (VCC) of U2\nC7 should be low ESR (<3ohms and rated >400V)\nIf you have stability issues, a 100pF 400 V ceramic cap\n  could be soldered on top of R8\nL1 should be 3A rated (e.g., EPCOS B82479 series\n  for 30mA output\nR5 must be capable of handling at least 3A
+Q1 should be selected for low Qg, Rdson & Coss\nR6, R8, and C7 must be rated at >400V\nD1 should be an ultra-fast (<50ns) recovery, 4A, >400V\nC1 & C6 should be a low ESR type (e.g., AVX TPS series)\nC1 & C2 should be sited very close to pin 2 (VCC) of U2\nC7 should be low ESR (<3ohms and rated >400V)\nIf you have stability issues, a 100pF 400 V ceramic cap\n  could be soldered on top of R8\nL1 should be >3A rated\nR5 must be capable of handling at least 3A
 $Comp
 L CONN_01X03 P8
 U 1 1 5710F76D

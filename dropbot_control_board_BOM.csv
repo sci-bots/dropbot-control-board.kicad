@@ -4,7 +4,7 @@ Reference,Value,Footprint,Count,Datasheet,Mfg_Part_No
 "C5, C8, C17, C16, C18, C9, C26, C33, C36, C37, C38, C2, C39, C3",0.1uF,Capacitors_SMD:C_0805,14,,CL21B104KBCNNNC
 C6,100uF,Capacitors_Tantalum_SMD:TantalC_SizeE_EIA-7360_Reflow,1,,T491X107K025AT
 L1,"47uH,3.8A",footprints:SRR1210,1,,SRR1210-470M
-D1,ES3J,Diodes_SMD:SMC_Standard,1,,ES3J
+D1,"400V, 4A, <50ns",Diodes_SMD:SMC_Standard,1,,VS-4EGU06-M3/5BT
 C7,"3.3uF,400V",Capacitors_SMD:c_elec_10x10,1,,EEV-EB2G3R3Q
 "R6, R8, R22",2M,Resistors_SMD:R_1206,3,,HVCB1206KDL2M00
 U2,MAX1771,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,1,,MAX1771ESA+ 
