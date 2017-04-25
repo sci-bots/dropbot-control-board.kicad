@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 4
 Title "DropBot control board"
 Date "2017-04-20"
-Rev "3.3"
+Rev "3.4"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""

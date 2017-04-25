@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
 
   (general
     (links 299)
     (no_connects 0)
-    (area 24.4875 20.326899 161.254002 113.050001)
+    (area 24.4113 20.326899 161.254002 113.050001)
     (thickness 1.6002)
     (drawings 14)
     (tracks 1231)
@@ -15,8 +15,8 @@
   (page USLetter)
   (title_block
     (title "DropBot control board")
-    (date 2017-04-04)
-    (rev 3.3)
+    (date 2017-04-25)
+    (rev v3.4)
     (company "Sci-Bots Inc.")
   )
 
@@ -6342,7 +6342,7 @@
   (gr_text "http://sci-bots.com\nSci-Bots Inc., 2017" (at 92.7 45.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
-  (gr_text "DropBot\ncontrol board v3.3" (at 75.7 48.2) (layer F.SilkS)
+  (gr_text "DropBot\ncontrol board v3.4" (at 75.7 48.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
 
@@ -6390,6 +6390,8 @@
   (segment (start 42.6 65.98683) (end 42.6104 65.97643) (width 0.254) (layer Front) (net 0) (tstamp 58FFB943))
   (segment (start 35.6 59.7) (end 35.6 59.69811) (width 0.254) (layer Front) (net 0) (tstamp 58D17172))
   (segment (start 35.6 59.69811) (end 35.58166 59.67977) (width 0.254) (layer Front) (net 0) (tstamp 58D17171))
+  (segment (start 35.6 73.50189) (end 35.58166 73.52023) (width 0.254) (layer Front) (net 0) (tstamp 58D17176))
+  (segment (start 35.6 73.5) (end 35.6 73.50189) (width 0.254) (layer Front) (net 0) (tstamp 58D17177))
   (via (at 57.5 74) (size 0.8) (drill 0.4) (layers Front Back) (net 1))
   (segment (start 133 43.45) (end 133 44.6) (width 0.254) (layer Front) (net 1))
   (via (at 133 44.6) (size 0.8) (drill 0.4) (layers Front Back) (net 1))
@@ -7476,8 +7478,6 @@
   (segment (start 33.927 80.5) (end 33.909 80.518) (width 0.254) (layer Back) (net 93))
   (segment (start 33.95 80.5) (end 33.927 80.5) (width 0.254) (layer Back) (net 93))
   (via (at 33.909 80.518) (size 0.8) (drill 0.4) (layers Front Back) (net 93))
-  (segment (start 35.6 73.50189) (end 35.58166 73.52023) (width 0.254) (layer Front) (net 93) (tstamp 58D17176))
-  (segment (start 35.6 73.5) (end 35.6 73.50189) (width 0.254) (layer Front) (net 93) (tstamp 58D17177))
   (segment (start 47 67.84968) (end 47 69) (width 0.254) (layer Back) (net 93))
   (via (at 47 69) (size 0.8) (drill 0.4) (layers Front Back) (net 93))
   (via (at 33.975 84.1) (size 0.8) (drill 0.4) (layers Front Back) (net 93) (status 30))
