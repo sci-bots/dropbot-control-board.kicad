@@ -1702,7 +1702,7 @@ F 4 "CC0805KKX7R9BB105" H 850 4300 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Connection ~ 850  4900
 Wire Wire Line
-	1600 4600 650  4600
+	650  4600 2150 4600
 Wire Wire Line
 	5100 4000 5000 4000
 Wire Wire Line
@@ -1916,4 +1916,5 @@ Wire Wire Line
 	4300 2750 4300 2950
 Text GLabel 7700 1950 2    60   Input ~ 0
 HV_OE
+Connection ~ 1600 4600
 $EndSCHEMATC
