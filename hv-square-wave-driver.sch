@@ -34,10 +34,10 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 4 7
 Title "DropBot control board"
-Date "2017-04-05"
-Rev "3.3"
+Date "2017-05-17"
+Rev "3.5"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
