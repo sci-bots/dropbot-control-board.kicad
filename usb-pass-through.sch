@@ -44,35 +44,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L USB_A P9
-U 1 1 58AEE5D3
-P 5200 4700
-F 0 "P9" H 5400 4500 50  0000 C CNN
-F 1 "USB_A" H 5150 4900 50  0000 C CNN
-F 2 "WheelerLab:AU-Y1006" V 5150 4600 50  0001 C CNN
-F 3 "" V 5150 4600 50  0000 C CNN
-F 4 "AU-Y1006" H 5200 4700 60  0001 C CNN "Mfg_Part_No"
-	1    5200 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L USB_B P6
-U 1 1 58AEE77B
-P 5200 2900
-F 0 "P6" H 5400 2700 50  0000 C CNN
-F 1 "USB_B" H 5150 3100 50  0000 C CNN
-F 2 "WheelerLab:1734346-1" V 5150 2800 50  0001 C CNN
-F 3 "" V 5150 2800 50  0000 C CNN
-F 4 "1734346-1" H 5200 2900 60  0001 C CNN "Mfg_Part_No"
-	1    5200 2900
-	1    0    0    -1  
-$EndComp
-Text GLabel 5500 5000 2    60   Input ~ 0
+Text GLabel 4800 5100 0    60   Input ~ 0
 GND
-Text Notes 4450 2600 0    60   ~ 0
+Text Notes 4450 2450 0    60   ~ 0
 USB PASSTHROUGH\nIncludes ESD protection and\nEMI suppression (See Wurth\nElectronics App Note ANP002C).
-Text GLabel 5700 2800 2    60   Input ~ 0
+Text GLabel 5700 3650 2    60   Input ~ 0
 CHASIS_GND
 $Comp
 L WE-TVS_824015 D5
@@ -99,11 +75,11 @@ F 4 "744231091" H 5150 4300 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3250 5100 3200
+	5100 3100 5100 3250
 Wire Wire Line
-	4750 3250 5100 3250
+	5100 3250 4750 3250
 Wire Wire Line
-	5200 3200 5200 3250
+	5200 3100 5200 3250
 Wire Wire Line
 	5200 3250 5550 3250
 Wire Wire Line
@@ -127,15 +103,9 @@ Wire Wire Line
 Wire Wire Line
 	5550 4150 5200 4150
 Wire Wire Line
-	5100 4400 5100 5000
-Wire Wire Line
-	5200 5000 5200 4400
-Wire Wire Line
 	5100 4150 5100 4200
 Wire Wire Line
 	5200 4150 5200 4200
-Wire Wire Line
-	5500 2800 5700 2800
 $Comp
 L FERRITE FB7
 U 1 1 58BE3979
@@ -150,10 +120,6 @@ F 4 "742792040" H 4550 4050 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Wire Wire Line
 	4550 3200 4550 3900
-Wire Wire Line
-	4550 3200 5000 3200
-Wire Wire Line
-	4550 5000 5000 5000
 $Comp
 L FERRITE FB8
 U 1 1 58BE422E
@@ -180,17 +146,13 @@ F 4 "CL21B104KBCNNNC" H 4250 4300 60  0001 C CNN "Mfg_Part_No"
 	1    4250 4300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4550 4700 4550 5000
 Connection ~ 4550 4300
 Connection ~ 4550 3650
 Wire Wire Line
 	4850 3650 4550 3650
-Wire Wire Line
-	5500 5000 5300 5000
-Text GLabel 5200 5000 3    60   Input ~ 0
+Text GLabel 5200 4550 2    60   Input ~ 0
 D+
-Text GLabel 5100 5000 3    60   Input ~ 0
+Text GLabel 5100 4550 0    60   Input ~ 0
 D-
 Wire Wire Line
 	4350 4300 4550 4300
@@ -198,13 +160,52 @@ Text GLabel 3950 4300 0    60   Input ~ 0
 CHASIS_GND
 Wire Wire Line
 	3950 4300 4150 4300
-Connection ~ 5700 3200
+$Comp
+L USB_B P6
+U 1 1 59320548
+P 5200 2800
+F 0 "P6" H 5000 3250 50  0000 L CNN
+F 1 "USB_B" H 5000 3150 50  0000 L CNN
+F 2 "WheelerLab:1734346-1" H 5350 2750 50  0001 C CNN
+F 3 "" H 5350 2750 50  0001 C CNN
+F 4 "1734346-1" H 5200 2800 60  0001 C CNN "Mfg_Part_No"
+	1    5200 2800
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	5300 3200 5700 3200
+	4550 3200 5400 3200
+Wire Wire Line
+	5400 3200 5400 3100
 Wire Wire Line
 	5700 3650 5450 3650
+$Comp
+L USB_A P9
+U 1 1 59320AF4
+P 5200 5000
+F 0 "P9" H 5000 5450 50  0000 L CNN
+F 1 "USB_A" H 5000 5350 50  0000 L CNN
+F 2 "WheelerLab:AU-Y1006" H 5350 4950 50  0001 C CNN
+F 3 "" H 5350 4950 50  0001 C CNN
+F 4 "AU-Y1006" H 5200 5000 60  0001 C CNN "Mfg_Part_No"
+	1    5200 5000
+	0    1    -1   0   
+$EndComp
+Text GLabel 4800 2700 0    60   Input ~ 0
+CHASIS_GND
 Wire Wire Line
-	5700 2800 5700 3650
+	4800 2800 4800 2700
 Wire Wire Line
-	5500 4600 5500 5000
+	5100 4700 5100 4400
+Wire Wire Line
+	5200 4400 5200 4700
+Wire Wire Line
+	4800 5000 4800 5100
+Wire Wire Line
+	4550 4700 4550 5300
+Wire Wire Line
+	4550 5300 5700 5300
+Wire Wire Line
+	5700 5300 5700 4700
+Wire Wire Line
+	5700 4700 5400 4700
 $EndSCHEMATC

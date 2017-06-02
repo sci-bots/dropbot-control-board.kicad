@@ -207,18 +207,6 @@ F 4 "RC0805FR-0710RL" H 5600 4150 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L F_Small F1
-U 1 1 58D0BDAD
-P 6400 3950
-F 0 "F1" H 6350 4000 50  0000 L CNN
-F 1 "PTC" H 6350 3850 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 6400 3950 50  0001 C CNN
-F 3 "" H 6400 3950 50  0000 C CNN
-F 4 "B59773B120A70" H 6400 3950 60  0001 C CNN "Mfg_Part_No"
-	1    6400 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L FERRITE FB2
 U 1 1 58D0BDB4
 P 6650 3950
@@ -297,4 +285,16 @@ Wire Wire Line
 	6100 4350 6100 4450
 Wire Wire Line
 	6300 4450 6300 4400
+$Comp
+L Fuse_Small F1
+U 1 1 5931BF6A
+P 6400 3950
+F 0 "F1" H 6400 3890 50  0000 C CNN
+F 1 "PTC" H 6400 4010 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 6400 3950 50  0001 C CNN
+F 3 "" H 6400 3950 50  0001 C CNN
+F 4 "B59773B120A70" H 6400 3950 60  0001 C CNN "Mfg_Part_No"
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
