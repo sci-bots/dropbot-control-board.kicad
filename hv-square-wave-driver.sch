@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -214,7 +213,7 @@ F 0 "FB2" H 6600 4050 50  0000 L CNN
 F 1 "FERRITE" H 6550 3850 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 6650 3850 60  0001 C CNN
 F 3 "" H 6650 3850 60  0000 C CNN
-F 4 "RC0805JR-070RL" H 6650 3950 60  0001 C CNN "Mfg_Part_No"
+F 4 "742792040" H 6650 3950 60  0001 C CNN "Mfg_Part_No"
 	1    6650 3950
 	1    0    0    -1  
 $EndComp

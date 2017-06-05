@@ -3,7 +3,7 @@
   (general
     (links 301)
     (no_connects 0)
-    (area 24.4875 20.326899 161.254002 113.050001)
+    (area 32.949999 20.949999 148.050001 113.050001)
     (thickness 1.6002)
     (drawings 14)
     (tracks 1157)
@@ -5550,7 +5550,7 @@
     )
   )
 
-  (module WheelerLab:PTS840_GK_SMTR_LFS (layer Back) (tedit 5931B96D) (tstamp 58D16EC6)
+  (module WheelerLab:PTS840_GK_SMTR_LFS (layer Back) (tedit 59357A4B) (tstamp 58D16EC6)
     (at 34.7 82.3 90)
     (descr "SWITCH TACTILE SPST-NO 0.05A 12V")
     (path /58D17EDA)
