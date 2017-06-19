@@ -29,14 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "DropBot control board"
-Date "2017-05-17"
-Rev "3.5"
+Date "2017-06-19"
+Rev "3.6"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""

@@ -29,14 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 7 7
 Title "DropBot control board"
-Date "2017-05-17"
-Rev "3.5"
+Date "2017-06-19"
+Rev "3.6"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -90,10 +91,10 @@ L R R12
 U 1 1 56BF2F38
 P 4750 4050
 F 0 "R12" V 4830 4050 50  0000 C CNN
-F 1 "200" V 4750 4050 50  0000 C CNN
+F 1 "150" V 4750 4050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4680 4050 30  0001 C CNN
 F 3 "" H 4750 4050 30  0000 C CNN
-F 4 "RC0805FR-07200RL" H 4750 4050 60  0001 C CNN "Mfg_Part_No"
+F 4 "RC0805FR-07150RL" H 4750 4050 60  0001 C CNN "Mfg_Part_No"
 	1    4750 4050
 	0    -1   -1   0   
 $EndComp
@@ -102,10 +103,10 @@ L R R11
 U 1 1 56BF3094
 P 4850 4550
 F 0 "R11" V 4930 4550 50  0000 C CNN
-F 1 "200" V 4850 4550 50  0000 C CNN
+F 1 "150" V 4850 4550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4780 4550 30  0001 C CNN
 F 3 "" H 4850 4550 30  0000 C CNN
-F 4 "RC0805FR-07200RL" H 4850 4550 60  0001 C CNN "Mfg_Part_No"
+F 4 "RC0805FR-07150RL" H 4850 4550 60  0001 C CNN "Mfg_Part_No"
 	1    4850 4550
 	0    -1   -1   0   
 $EndComp

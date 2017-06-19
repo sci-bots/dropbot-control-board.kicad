@@ -29,14 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 7
 Title "DropBot control board"
-Date "2017-05-17"
-Rev "3.5"
+Date "2017-06-19"
+Rev "3.6"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -147,7 +148,6 @@ GND
 Text GLabel 8150 3000 2    60   Input ~ 0
 +3.3V
 NoConn ~ 6600 5200
-NoConn ~ 7050 5200
 NoConn ~ 7200 5200
 NoConn ~ 7850 3150
 NoConn ~ 7850 2850
@@ -158,7 +158,7 @@ Text GLabel 7850 4050 2    60   Input ~ 0
 A3/MAX1771_CS
 Text GLabel 1050 2700 2    60   Input ~ 0
 D6/DRIVER_LO
-Text GLabel 7850 2250 2    60   Input ~ 0
+Text GLabel 8300 2250 2    60   Input ~ 0
 +0.6V
 NoConn ~ 7850 2100
 Text GLabel 7850 2400 2    60   Input ~ 0
@@ -268,7 +268,7 @@ U 1 1 58526ABE
 P 4850 5200
 F 0 "U10" H 4855 5445 60  0000 C CNN
 F 1 "W25Q64FV" H 4850 4945 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 4840 5195 60  0001 C CNN
+F 2 "WheelerLab:SSO-8_5.2x5.2mm_Pitch1.27mm" H 4840 5195 60  0001 C CNN
 F 3 "https://www.winbond.com/resource-files/w25q64fv%20revq%2006142016.pdf" H 4840 5195 60  0001 C CNN
 F 4 "W25Q64FVSSIG TR" H 4850 5200 60  0001 C CNN "Mfg_Part_No"
 	1    4850 5200
@@ -704,7 +704,7 @@ U 1 1 57E388CD
 P 6850 3450
 F 0 "U1" H 6850 3450 60  0000 C CNN
 F 1 "Teensy_3.2" H 6850 4900 60  0000 C CNN
-F 2 "footprints:Teensy-3.2" H 6950 2900 60  0001 C CNN
+F 2 "WheelerLab:Teensy-3.2" H 6950 2900 60  0001 C CNN
 F 3 "" H 6950 2900 60  0000 C CNN
 	1    6850 3450
 	1    0    0    -1  
@@ -925,4 +925,26 @@ $EndSheet
 NoConn ~ 5850 3300
 Wire Wire Line
 	1950 1500 1950 1400
+$Comp
+L C_Small C22
+U 1 1 5947932E
+P 8300 2350
+F 0 "C22" H 8050 2350 50  0000 L CNN
+F 1 "0.1uF" H 8050 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8300 2350 50  0001 C CNN
+F 3 "" H 8300 2350 50  0000 C CNN
+F 4 "CL21B104KBCNNNC" H 8300 2350 60  0001 C CNN "Mfg_Part_No"
+	1    8300 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2250 8300 2250
+Text GLabel 8300 2550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	8300 2550 8300 2450
+Text GLabel 1050 3900 3    60   Input ~ 0
+PROG
+Text GLabel 7050 5200 3    60   Input ~ 0
+PROG
 $EndSCHEMATC

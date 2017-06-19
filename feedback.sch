@@ -29,14 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 5 7
 Title "DropBot control board"
-Date "2017-05-17"
-Rev "3.5"
+Date "2017-06-19"
+Rev "3.6"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -150,7 +151,7 @@ F 4 "RC0805FR-071ML" H 3650 4450 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_Small F2
+L Fuse_Small F2
 U 1 1 58BC51B6
 P 3450 4100
 F 0 "F2" H 3410 4160 50  0000 L CNN
@@ -196,7 +197,7 @@ F 0 "U11" H 5900 4500 60  0000 C CNN
 F 1 "MCP6022" H 5900 3800 60  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 5900 4150 60  0001 C CNN
 F 3 "" H 5900 4150 60  0000 C CNN
-F 4 "ED14DT" H 5900 4150 60  0001 C CNN "Mfg_Part_No"
+F 4 "ED08DT" H 5900 4150 60  0001 C CNN "Mfg_Part_No"
 	1    5900 4150
 	1    0    0    -1  
 $EndComp
