@@ -153,7 +153,7 @@ NoConn ~ 7850 3150
 NoConn ~ 7850 2850
 NoConn ~ 7850 2700
 Text GLabel 7850 4200 2    60   Input ~ 0
-A2/HV507_CS
+A2/HV7802_CS
 Text GLabel 7850 4050 2    60   Input ~ 0
 A3/MAX1771_CS
 Text GLabel 1050 2700 2    60   Input ~ 0

@@ -413,7 +413,7 @@ F 4 "RC0805FR-07150RL" H 7400 4600 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Text GLabel 8700 5250 0    60   Input ~ 0
-A2/HV507_CS
+A2/HV7802_CS
 Text GLabel 7550 4600 2    60   Input ~ 0
 D5/SSCL
 Text GLabel 7550 4500 2    60   Input ~ 0
