@@ -44,8 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4800 5100 0    60   Input ~ 0
-GND
 Text Notes 4450 2450 0    60   ~ 0
 USB PASSTHROUGH\nIncludes ESD protection and\nEMI suppression (See Wurth\nElectronics App Note ANP002C).
 Text GLabel 5700 3650 2    60   Input ~ 0
@@ -208,4 +206,15 @@ Wire Wire Line
 	5700 5300 5700 4700
 Wire Wire Line
 	5700 4700 5400 4700
+$Comp
+L GND #PWR025
+U 1 1 5B3C7E87
+P 4800 5100
+F 0 "#PWR025" H 4800 4850 50  0001 C CNN
+F 1 "GND" H 4800 4950 50  0000 C CNN
+F 2 "" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

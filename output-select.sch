@@ -56,8 +56,6 @@ F 4 "RC0805FR-0751KL" H 5800 4800 60  0001 C CNN "Mfg_Part_No"
 	1    5800 4800
 	-1   0    0    1   
 $EndComp
-Text GLabel 5800 4950 2    60   Input ~ 0
-+3.3V
 $Comp
 L AQW216 U5
 U 1 1 56C16511
@@ -110,14 +108,10 @@ F 4 "RC0805FR-07100RL" H 4850 4550 60  0001 C CNN "Mfg_Part_No"
 	1    4850 4550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4700 4550 0    60   Input ~ 0
-GND
 Text Notes 4200 3150 0    60   ~ 0
 OUTPUT SELECT
 Text GLabel 5800 4650 2    60   Input ~ 0
 A0/SHORT_CHK
-Text GLabel 4550 4050 0    60   Input ~ 0
-+3.3V
 Text GLabel 5800 4050 2    60   Input ~ 0
 HVAC
 Text GLabel 5250 3400 0    60   Input ~ 0
@@ -136,10 +130,6 @@ F 4 "74AHC1G32GW,125" H 5850 3500 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Text Notes 4250 3900 0    60   ~ 0
 Both inputs must be\nlow to select HV output
-Text GLabel 5650 3100 2    60   Input ~ 0
-+3.3V
-Text GLabel 5600 3800 0    60   Input ~ 0
-GND
 $Comp
 L R R36
 U 1 1 58577F50
@@ -159,11 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 3100 5650 3300
 Wire Wire Line
-	5600 3800 5650 3800
-Wire Wire Line
-	5650 3800 5650 3700
-Wire Wire Line
-	4550 4050 4600 4050
+	4100 4050 4600 4050
 Wire Wire Line
 	4900 4050 5000 4050
 Wire Wire Line
@@ -182,4 +168,62 @@ Wire Wire Line
 Connection ~ 4950 4250
 Text Notes 6250 4850 0    60   ~ 0
 Short circuit check
+$Comp
+L +3.3V #PWR044
+U 1 1 5B3C0E4E
+P 5650 3100
+F 0 "#PWR044" H 5650 2950 50  0001 C CNN
+F 1 "+3.3V" H 5650 3240 50  0000 C CNN
+F 2 "" H 5650 3100 50  0001 C CNN
+F 3 "" H 5650 3100 50  0001 C CNN
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR045
+U 1 1 5B3C0EEC
+P 4100 4050
+F 0 "#PWR045" H 4100 3900 50  0001 C CNN
+F 1 "+3.3V" H 4100 4190 50  0000 C CNN
+F 2 "" H 4100 4050 50  0001 C CNN
+F 3 "" H 4100 4050 50  0001 C CNN
+	1    4100 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 4050
+$Comp
+L +3.3V #PWR046
+U 1 1 5B3C10F0
+P 5800 4950
+F 0 "#PWR046" H 5800 4800 50  0001 C CNN
+F 1 "+3.3V" H 5800 5090 50  0000 C CNN
+F 2 "" H 5800 4950 50  0001 C CNN
+F 3 "" H 5800 4950 50  0001 C CNN
+	1    5800 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 5B3CAC28
+P 4400 4550
+F 0 "#PWR047" H 4400 4300 50  0001 C CNN
+F 1 "GND" H 4400 4400 50  0000 C CNN
+F 2 "" H 4400 4550 50  0001 C CNN
+F 3 "" H 4400 4550 50  0001 C CNN
+	1    4400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4550 4400 4550
+$Comp
+L GND #PWR048
+U 1 1 5B3CAFE2
+P 5650 3700
+F 0 "#PWR048" H 5650 3450 50  0001 C CNN
+F 1 "GND" H 5650 3550 50  0000 C CNN
+F 2 "" H 5650 3700 50  0001 C CNN
+F 3 "" H 5650 3700 50  0001 C CNN
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

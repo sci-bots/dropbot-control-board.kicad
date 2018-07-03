@@ -68,8 +68,6 @@ F 4 "TLP227G-2(TP1,N,F)" H 5550 3900 60  0001 C CNN "Mfg_Part_No"
 	1    5550 3900
 	0    1    1    0   
 $EndComp
-Text GLabel 4550 3050 0    60   Input ~ 0
-GND
 $Comp
 L C C12
 U 1 1 57E388D0
@@ -158,8 +156,6 @@ F 4 "CL21C101JECNNWC" H 5550 4650 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Wire Wire Line
 	4750 4300 4850 4300
-Text GLabel 4550 4300 3    60   Input ~ 0
-GND
 Wire Wire Line
 	4800 4300 4800 4500
 Connection ~ 4800 4300
@@ -183,8 +179,6 @@ F 4 "RC0805FR-075K1L" H 4700 3050 60  0001 C CNN "Mfg_Part_No"
 	1    4700 3050
 	0    1    1    0   
 $EndComp
-Text GLabel 6850 3150 2    60   Input ~ 0
-+3.3V
 Wire Wire Line
 	4550 3050 4550 3200
 Wire Wire Line
@@ -212,8 +206,6 @@ Wire Wire Line
 	5600 3050 5600 3500
 Wire Wire Line
 	5600 3500 5500 3500
-Text GLabel 5300 4300 3    60   Input ~ 0
-GND
 Text GLabel 5800 4300 3    60   Input ~ 0
 HVAC
 Wire Wire Line
@@ -259,8 +251,6 @@ $EndComp
 Wire Wire Line
 	6550 3200 6550 3150
 Connection ~ 6550 3150
-Text GLabel 6050 4300 3    60   Input ~ 0
-GND
 Text GLabel 6550 4300 3    60   Input ~ 0
 HVAC
 $Comp
@@ -303,4 +293,61 @@ Text GLabel 6050 3050 0    60   Input ~ 0
 GND
 Wire Wire Line
 	6350 3500 6250 3500
+$Comp
+L +3.3V #PWR026
+U 1 1 5B3BEE57
+P 6850 3150
+F 0 "#PWR026" H 6850 3000 50  0001 C CNN
+F 1 "+3.3V" H 6850 3290 50  0000 C CNN
+F 2 "" H 6850 3150 50  0001 C CNN
+F 3 "" H 6850 3150 50  0001 C CNN
+	1    6850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5B3C828A
+P 4400 3050
+F 0 "#PWR027" H 4400 2800 50  0001 C CNN
+F 1 "GND" H 4400 2900 50  0000 C CNN
+F 2 "" H 4400 3050 50  0001 C CNN
+F 3 "" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3050 4550 3050
+$Comp
+L GND #PWR028
+U 1 1 5B3C84B2
+P 4550 4300
+F 0 "#PWR028" H 4550 4050 50  0001 C CNN
+F 1 "GND" H 4550 4150 50  0000 C CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5B3C8624
+P 5300 4300
+F 0 "#PWR029" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5300 4150 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5B3C8721
+P 6050 4300
+F 0 "#PWR030" H 6050 4050 50  0001 C CNN
+F 1 "GND" H 6050 4150 50  0000 C CNN
+F 2 "" H 6050 4300 50  0001 C CNN
+F 3 "" H 6050 4300 50  0001 C CNN
+	1    6050 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
