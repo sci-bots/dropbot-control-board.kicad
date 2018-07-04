@@ -417,7 +417,7 @@
     )
   )
 
-  (module WheelerLab:SOT-23-8 (layer Front) (tedit 58FF53D7) (tstamp 5848FB82)
+  (module Sci-Bots:SOT-23-8 (layer Front) (tedit 58FF53D7) (tstamp 5848FB82)
     (at 124.7 88.5 180)
     (path /591DC701/58493EBB)
     (attr smd)
@@ -460,7 +460,7 @@
     )
   )
 
-  (module WheelerLab:AU-Y1006 (layer Front) (tedit 58D119DB) (tstamp 58D13C13)
+  (module Sci-Bots:AU-Y1006 (layer Front) (tedit 58D119DB) (tstamp 58D13C13)
     (at 54 66)
     (descr "USB A connector")
     (tags "USB USB_A")
@@ -3637,7 +3637,7 @@
     )
   )
 
-  (module WheelerLab:TFM-105-02-X-DH (layer Front) (tedit 58FF4FE3) (tstamp 58BD0339)
+  (module Sci-Bots:TFM-105-02-X-DH (layer Front) (tedit 58FF4FE3) (tstamp 58BD0339)
     (at 131 21)
     (descr "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
     (tags "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
@@ -4074,7 +4074,7 @@
     )
   )
 
-  (module WheelerLab:SM2917 (layer Front) (tedit 591C7A4D) (tstamp 58BD063A)
+  (module Sci-Bots:SM2917 (layer Front) (tedit 591C7A4D) (tstamp 58BD063A)
     (at 142 43.4 270)
     (path /58C209E5)
     (fp_text reference C32 (at -5.9 0 270) (layer F.SilkS)
@@ -5343,7 +5343,7 @@
     )
   )
 
-  (module WheelerLab:PTS840_GK_SMTR_LFS (layer Back) (tedit 5B3BB01A) (tstamp 58D16EC6)
+  (module Sci-Bots:PTS840_GK_SMTR_LFS (layer Back) (tedit 5B3BB01A) (tstamp 58D16EC6)
     (at 34.7 82.3 90)
     (descr "SWITCH TACTILE SPST-NO 0.05A 12V")
     (path /58D17EDA)
@@ -5371,7 +5371,7 @@
     (pad "" np_thru_hole circle (at 0 0.9 90) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask B.SilkS))
   )
 
-  (module WheelerLab:1734346-1 (layer Back) (tedit 58FF5142) (tstamp 58FFB806)
+  (module Sci-Bots:1734346-1 (layer Back) (tedit 58FF5142) (tstamp 58FFB806)
     (at 35.6 65.6 270)
     (path /58D0464D/59320548)
     (attr smd)
@@ -6419,7 +6419,7 @@
     )
   )
 
-  (module WheelerLab:wurth-WE-TVS_SOT23-6L (layer Back) (tedit 58FF52A0) (tstamp 59478936)
+  (module Sci-Bots:wurth-WE-TVS_SOT23-6L (layer Back) (tedit 58FF52A0) (tstamp 59478936)
     (at 47 60.4 180)
     (descr "TVS DIODE ARRAY WE-TVS")
     (tags "TVS DIODE ARRAY WE-TVS")
@@ -6491,7 +6491,7 @@
       (net 85 "Net-(D5-Pad4)"))
   )
 
-  (module WheelerLab:wurth-WE-CNSW_0805 (layer Back) (tedit 58FF5284) (tstamp 59478967)
+  (module Sci-Bots:wurth-WE-CNSW_0805 (layer Back) (tedit 58FF5284) (tstamp 59478967)
     (at 50.7 60.3)
     (descr "SMD COMMON MODE NOISE SUPPRESSOR WE-CNSW")
     (tags "SMD COMMON MODE NOISE SUPPRESSOR WE-CNSW")
@@ -6544,7 +6544,7 @@
       (net 85 "Net-(D5-Pad4)"))
   )
 
-  (module WheelerLab:Teensy-3.2 (layer Front) (tedit 59474F7D) (tstamp 5947BC33)
+  (module Sci-Bots:Teensy-3.2 (layer Front) (tedit 59474F7D) (tstamp 5947BC33)
     (at 107.2 62.4)
     (path /57E388CD)
     (fp_text reference U1 (at -17.145 -0.508 90) (layer F.SilkS)

@@ -167,11 +167,11 @@
       (tstamp 5851E519))
     (comp (ref U10)
       (value IS25LP064A-JBLE)
-      (footprint WheelerLab:SSO-8_5.2x5.2mm_Pitch1.27mm)
+      (footprint Sci-Bots:SSO-8_5.2x5.2mm_Pitch1.27mm)
       (datasheet https://www.winbond.com/resource-files/w25q64fv%20revq%2006142016.pdf)
       (fields
         (field (name Mfg_Part_No) IS25LP064A-JBLE))
-      (libsource (lib wheelerlab) (part W25Q64FV))
+      (libsource (lib sci-bots) (part W25Q64FV))
       (sheetpath (names /) (tstamps /))
       (tstamp 58526ABE))
     (comp (ref C9)
@@ -184,10 +184,10 @@
       (tstamp 5852FD74))
     (comp (ref P11)
       (value TFM-105-02-X-DH)
-      (footprint WheelerLab:TFM-105-02-X-DH)
+      (footprint Sci-Bots:TFM-105-02-X-DH)
       (fields
         (field (name Mfg_Part_No) TFM-105-02-L-DH))
-      (libsource (lib wheelerlab) (part TFM-105-02-X-DH))
+      (libsource (lib sci-bots) (part TFM-105-02-X-DH))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B71669))
     (comp (ref R45)
@@ -243,7 +243,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BF4C67))
     (comp (ref C27)
@@ -312,7 +312,7 @@
       (tstamp 58BF8AA0))
     (comp (ref C32)
       (value 33uF)
-      (footprint WheelerLab:SM2917)
+      (footprint Sci-Bots:SM2917)
       (fields
         (field (name Mfg_Part_No) T491D336K020AT))
       (libsource (lib device) (part CP1))
@@ -356,8 +356,8 @@
       (tstamp 58C5D784))
     (comp (ref U1)
       (value Teensy_3.2)
-      (footprint WheelerLab:Teensy-3.2)
-      (libsource (lib wheelerlab) (part Teensy_3.2))
+      (footprint Sci-Bots:Teensy-3.2)
+      (libsource (lib sci-bots) (part Teensy_3.2))
       (sheetpath (names /) (tstamps /))
       (tstamp 57E388CD))
     (comp (ref FB4)
@@ -365,7 +365,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BDE1E4))
     (comp (ref FB3)
@@ -373,7 +373,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BDF573))
     (comp (ref FB5)
@@ -381,7 +381,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BE03DE))
     (comp (ref P5)
@@ -403,7 +403,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BF764E))
     (comp (ref C38)
@@ -424,10 +424,10 @@
       (tstamp 58BFE0BE))
     (comp (ref SW1)
       (value PROG)
-      (footprint WheelerLab:PTS840_GK_SMTR_LFS)
+      (footprint Sci-Bots:PTS840_GK_SMTR_LFS)
       (fields
         (field (name Mfg_Part_No) "PTS840 GK SMTR LFS"))
-      (libsource (lib wheelerlab) (part SPST))
+      (libsource (lib sci-bots) (part SPST))
       (sheetpath (names /) (tstamps /))
       (tstamp 58D17EDA))
     (comp (ref P10)
@@ -458,18 +458,18 @@
       (tstamp 5947932E))
     (comp (ref D5)
       (value WE-TVS_824015)
-      (footprint WheelerLab:wurth-WE-TVS_SOT23-6L)
+      (footprint Sci-Bots:wurth-WE-TVS_SOT23-6L)
       (fields
         (field (name Mfg_Part_No) 824015))
-      (libsource (lib wheelerlab) (part WE-TVS_824015))
+      (libsource (lib sci-bots) (part WE-TVS_824015))
       (sheetpath (names "/USB pass-through/") (tstamps /58D0464D/))
       (tstamp 58BAFF99))
     (comp (ref L2)
       (value "90 Ohm@100MHz")
-      (footprint WheelerLab:wurth-WE-CNSW_0805)
+      (footprint Sci-Bots:wurth-WE-CNSW_0805)
       (fields
         (field (name Mfg_Part_No) 744231091))
-      (libsource (lib wheelerlab) (part CM_CHOKE))
+      (libsource (lib sci-bots) (part CM_CHOKE))
       (sheetpath (names "/USB pass-through/") (tstamps /58D0464D/))
       (tstamp 58BBE1AE))
     (comp (ref FB7)
@@ -477,7 +477,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names "/USB pass-through/") (tstamps /58D0464D/))
       (tstamp 58BE3979))
     (comp (ref FB8)
@@ -485,7 +485,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names "/USB pass-through/") (tstamps /58D0464D/))
       (tstamp 58BE422E))
     (comp (ref C39)
@@ -498,7 +498,7 @@
       (tstamp 58BE5178))
     (comp (ref P6)
       (value USB_B)
-      (footprint WheelerLab:1734346-1)
+      (footprint Sci-Bots:1734346-1)
       (fields
         (field (name Mfg_Part_No) 1734346-1))
       (libsource (lib conn) (part USB_B))
@@ -506,7 +506,7 @@
       (tstamp 59320548))
     (comp (ref P9)
       (value USB_A)
-      (footprint WheelerLab:AU-Y1006)
+      (footprint Sci-Bots:AU-Y1006)
       (fields
         (field (name Mfg_Part_No) AU-Y1006))
       (libsource (lib conn) (part USB_A))
@@ -517,7 +517,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part AQW216))
+      (libsource (lib sci-bots) (part AQW216))
       (sheetpath (names "/On-board calibration/") (tstamps /58D08701/))
       (tstamp 57E388CE))
     (comp (ref U8)
@@ -525,7 +525,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part AQW216))
+      (libsource (lib sci-bots) (part AQW216))
       (sheetpath (names "/On-board calibration/") (tstamps /58D08701/))
       (tstamp 57E388CF))
     (comp (ref C12)
@@ -597,7 +597,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part AQW216))
+      (libsource (lib sci-bots) (part AQW216))
       (sheetpath (names "/On-board calibration/") (tstamps /58D08701/))
       (tstamp 591E71DB))
     (comp (ref R54)
@@ -637,7 +637,7 @@
       (footprint SMD_Packages:SOIC-8-N)
       (fields
         (field (name Mfg_Part_No) NCP5304DR2G))
-      (libsource (lib wheelerlab) (part NCP5304))
+      (libsource (lib sci-bots) (part NCP5304))
       (sheetpath (names "/HV square wave driver/") (tstamps /58D0C6B4/))
       (tstamp 58D0BD53))
     (comp (ref D2)
@@ -733,7 +733,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names "/HV square wave driver/") (tstamps /58D0C6B4/))
       (tstamp 58D0BDB4))
     (comp (ref C35)
@@ -827,7 +827,7 @@
       (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Mfg_Part_No) TBAV99,LM))
-      (libsource (lib wheelerlab) (part BAV99))
+      (libsource (lib sci-bots) (part BAV99))
       (sheetpath (names /feedback/) (tstamps /591CE06E/))
       (tstamp 58BCBFA7))
     (comp (ref C11)
@@ -843,7 +843,7 @@
       (footprint Housings_DIP:DIP-8_W7.62mm)
       (fields
         (field (name Mfg_Part_No) ED08DT))
-      (libsource (lib wheelerlab) (part MCP6022))
+      (libsource (lib sci-bots) (part MCP6022))
       (sheetpath (names /feedback/) (tstamps /591CE06E/))
       (tstamp 591D0EAB))
     (comp (ref R33)
@@ -939,7 +939,7 @@
       (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (fields
         (field (name Mfg_Part_No) "MAX1771ESA+ "))
-      (libsource (lib wheelerlab) (part MAX1771))
+      (libsource (lib sci-bots) (part MAX1771))
       (sheetpath (names /boost-converter/) (tstamps /591DC701/))
       (tstamp 56BE960B))
     (comp (ref Q1)
@@ -947,7 +947,7 @@
       (footprint TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal_LargePads)
       (fields
         (field (name Mfg_Part_No) STP33N65M2))
-      (libsource (lib wheelerlab) (part IRF644PBF))
+      (libsource (lib sci-bots) (part IRF644PBF))
       (sheetpath (names /boost-converter/) (tstamps /591DC701/))
       (tstamp 56BE960C))
     (comp (ref R5)
@@ -979,7 +979,7 @@
       (footprint footprints:MSOP-8)
       (fields
         (field (name Mfg_Part_No) HV7802MG-G))
-      (libsource (lib wheelerlab) (part HV7802))
+      (libsource (lib sci-bots) (part HV7802))
       (sheetpath (names /boost-converter/) (tstamps /591DC701/))
       (tstamp 56BEB19A))
     (comp (ref R13)
@@ -1032,11 +1032,11 @@
       (tstamp 56BE9600))
     (comp (ref U3)
       (value CAT5171)
-      (footprint WheelerLab:SOT-23-8)
+      (footprint Sci-Bots:SOT-23-8)
       (datasheet http://www.onsemi.com/pub_link/Collateral/CAT5171-D.PDF)
       (fields
         (field (name Mfg_Part_No) CAT5171TBI-50GT3))
-      (libsource (lib wheelerlab) (part CAT5171))
+      (libsource (lib sci-bots) (part CAT5171))
       (sheetpath (names /boost-converter/) (tstamps /591DC701/))
       (tstamp 58493EBB))
     (comp (ref R38)
@@ -1144,7 +1144,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part AQW216))
+      (libsource (lib sci-bots) (part AQW216))
       (sheetpath (names /output-select/) (tstamps /591E37D8/))
       (tstamp 56C16511))
     (comp (ref R10)
@@ -1177,7 +1177,7 @@
       (datasheet http://www.nxp.com/documents/data_sheet/74AHC_AHCT1G32.pdf)
       (fields
         (field (name Mfg_Part_No) 74AHC1G32GW,125))
-      (libsource (lib wheelerlab) (part 74AHC1G32))
+      (libsource (lib sci-bots) (part 74AHC1G32))
       (sheetpath (names /output-select/) (tstamps /591E37D8/))
       (tstamp 58517C1B))
     (comp (ref R36)
@@ -1189,7 +1189,7 @@
       (sheetpath (names /output-select/) (tstamps /591E37D8/))
       (tstamp 58577F50)))
   (libparts
-    (libpart (lib wheelerlab) (part 74AHC1G32)
+    (libpart (lib sci-bots) (part 74AHC1G32)
       (description "Or 2 inputs")
       (fields
         (field (name Reference) U)
@@ -1200,7 +1200,7 @@
         (pin (num 3) (name GND) (type power_in))
         (pin (num 4) (name ~) (type output))
         (pin (num 5) (name VCC) (type power_in))))
-    (libpart (lib wheelerlab) (part AQW216)
+    (libpart (lib sci-bots) (part AQW216)
       (fields
         (field (name Reference) U)
         (field (name Value) AQW216))
@@ -1213,7 +1213,7 @@
         (pin (num 6) (name INOUTA2) (type passive))
         (pin (num 7) (name INOUTB1) (type passive))
         (pin (num 8) (name INOUTA1) (type passive))))
-    (libpart (lib wheelerlab) (part BAV99)
+    (libpart (lib sci-bots) (part BAV99)
       (fields
         (field (name Reference) D)
         (field (name Value) BAV99))
@@ -1231,7 +1231,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part CAT5171)
+    (libpart (lib sci-bots) (part CAT5171)
       (description "Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm")
       (docs http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf)
       (footprints
@@ -1248,7 +1248,7 @@
         (pin (num 6) (name AD0) (type input))
         (pin (num 7) (name B) (type passive))
         (pin (num 8) (name A) (type passive))))
-    (libpart (lib wheelerlab) (part CM_CHOKE)
+    (libpart (lib sci-bots) (part CM_CHOKE)
       (description "Common Mode Choke")
       (footprints
         (fp CP*)
@@ -1359,7 +1359,7 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib wheelerlab) (part FERRITE)
+    (libpart (lib sci-bots) (part FERRITE)
       (fields
         (field (name Reference) FB)
         (field (name Value) FERRITE))
@@ -1376,7 +1376,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part HV7802)
+    (libpart (lib sci-bots) (part HV7802)
       (fields
         (field (name Reference) U)
         (field (name Value) HV7802))
@@ -1386,7 +1386,7 @@
         (pin (num 3) (name LOAD) (type input))
         (pin (num 6) (name OUT) (type input))
         (pin (num 8) (name GND) (type input))))
-    (libpart (lib wheelerlab) (part IRF644PBF)
+    (libpart (lib sci-bots) (part IRF644PBF)
       (description "250V Vds, 14A Id, 280mOhm Rds, N-Channel MOSFET, TO-220AB")
       (docs http://www.vishay.com/docs/91039/91039.pdf)
       (footprints
@@ -1421,7 +1421,7 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib wheelerlab) (part MAX1771)
+    (libpart (lib sci-bots) (part MAX1771)
       (fields
         (field (name Reference) U)
         (field (name Value) MAX1771))
@@ -1434,7 +1434,7 @@
         (pin (num 6) (name AGND) (type unspc))
         (pin (num 7) (name GND) (type unspc))
         (pin (num 8) (name CS) (type output))))
-    (libpart (lib wheelerlab) (part MCP6022)
+    (libpart (lib sci-bots) (part MCP6022)
       (fields
         (field (name Reference) IC)
         (field (name Value) MCP6022))
@@ -1447,7 +1447,7 @@
         (pin (num 6) (name VINB-) (type input))
         (pin (num 7) (name VOUTB) (type input))
         (pin (num 8) (name VDD) (type input))))
-    (libpart (lib wheelerlab) (part NCP5304)
+    (libpart (lib sci-bots) (part NCP5304)
       (fields
         (field (name Reference) U)
         (field (name Value) NCP5304))
@@ -1480,7 +1480,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part SPST)
+    (libpart (lib sci-bots) (part SPST)
       (footprints
         (fp APEM-MJTP1129B))
       (fields
@@ -1489,7 +1489,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part TFM-105-02-X-DH)
+    (libpart (lib sci-bots) (part TFM-105-02-X-DH)
       (footprints
         (fp *TFM-107-02-X-DH*))
       (fields
@@ -1511,7 +1511,7 @@
         (pin (num G2) (name 16) (type BiDi))
         (pin (num G3) (name 17) (type BiDi))
         (pin (num G4) (name 18) (type BiDi))))
-    (libpart (lib wheelerlab) (part Teensy_3.2)
+    (libpart (lib sci-bots) (part Teensy_3.2)
       (fields
         (field (name Reference) U)
         (field (name Value) Teensy_3.2))
@@ -1578,7 +1578,7 @@
         (pin (num 3) (name D+) (type passive))
         (pin (num 4) (name GND) (type power_out))
         (pin (num 5) (name Shield) (type passive))))
-    (libpart (lib wheelerlab) (part W25Q64FV)
+    (libpart (lib sci-bots) (part W25Q64FV)
       (fields
         (field (name Reference) U)
         (field (name Value) W25Q64FV))
@@ -1591,7 +1591,7 @@
         (pin (num 6) (name CLK) (type power_in))
         (pin (num 7) (name ~HOLD) (type power_in))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib wheelerlab) (part WE-TVS_824015)
+    (libpart (lib sci-bots) (part WE-TVS_824015)
       (footprints
         (fp *WE-TVS_SOT23-6L*))
       (fields
@@ -1610,8 +1610,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical wheelerlab)
-      (uri C:\Users\Ryan\Documents\dev\kicad\dropbot-v3\control-board\library\wheelerlab.lib)))
+    (library (logical sci-bots)
+      (uri C:\Users\Ryan\Documents\dev\kicad\dropbot-v3\control-board\library\sci-bots.lib)))
   (nets
     (net (code 1) (name "Net-(R45-Pad2)")
       (node (ref U1) (pin 18))

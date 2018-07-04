@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:wheelerlab
+LIBS:sci-bots
 LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
@@ -290,7 +290,7 @@ U 1 1 58493EBB
 P 6400 4600
 F 0 "U3" H 6150 4950 50  0000 L CNN
 F 1 "CAT5171" H 6450 4950 50  0000 L CNN
-F 2 "WheelerLab:SOT-23-8" H 6400 4600 50  0001 C CNN
+F 2 "Sci-Bots:SOT-23-8" H 6400 4600 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/CAT5171-D.PDF" H 6400 4600 50  0001 C CNN
 F 4 "CAT5171TBI-50GT3" H 6400 4600 60  0001 C CNN "Mfg_Part_No"
 	1    6400 4600

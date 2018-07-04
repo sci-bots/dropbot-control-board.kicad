@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:wheelerlab
+LIBS:sci-bots
 LIBS:dropbot_control_board-cache
 EELAYER 25 0
 EELAYER END
