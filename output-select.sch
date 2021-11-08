@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R17
+L Device:R R17
 U 1 1 56C16200
 P 5800 4800
 F 0 "R17" V 5880 4800 50  0000 C CNN
@@ -73,7 +42,7 @@ VOUT
 Text GLabel 5250 3600 0    60   Input ~ 0
 D8/OUTPUT_SELECT
 $Comp
-L R R10
+L Device:R R10
 U 1 1 56BF2A44
 P 4550 4200
 F 0 "R10" V 4630 4200 50  0000 C CNN
@@ -85,7 +54,7 @@ F 4 "RC0805FR-075K1L" H 4550 4200 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Device:R R12
 U 1 1 56BF2F38
 P 4750 4050
 F 0 "R12" V 4830 4050 50  0000 C CNN
@@ -97,7 +66,7 @@ F 4 "RC0805FR-07100RL" H 4750 4050 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L Device:R R11
 U 1 1 56BF3094
 P 4850 4550
 F 0 "R11" V 4930 4550 50  0000 C CNN
@@ -131,7 +100,7 @@ $EndComp
 Text Notes 4250 3900 0    60   ~ 0
 Both inputs must be\nlow to select HV output
 $Comp
-L R R36
+L Device:R R36
 U 1 1 58577F50
 P 5250 3250
 F 0 "R36" V 5330 3250 50  0000 C CNN
@@ -169,7 +138,7 @@ Connection ~ 4950 4250
 Text Notes 6250 4850 0    60   ~ 0
 Short circuit check
 $Comp
-L +3.3V #PWR044
+L power:+3.3V #PWR044
 U 1 1 5B3C0E4E
 P 5650 3100
 F 0 "#PWR044" H 5650 2950 50  0001 C CNN
@@ -180,7 +149,7 @@ F 3 "" H 5650 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR045
+L power:+3.3V #PWR045
 U 1 1 5B3C0EEC
 P 4100 4050
 F 0 "#PWR045" H 4100 3900 50  0001 C CNN
@@ -192,7 +161,7 @@ F 3 "" H 4100 4050 50  0001 C CNN
 $EndComp
 Connection ~ 4550 4050
 $Comp
-L +3.3V #PWR046
+L power:+3.3V #PWR046
 U 1 1 5B3C10F0
 P 5800 4950
 F 0 "#PWR046" H 5800 4800 50  0001 C CNN
@@ -203,7 +172,7 @@ F 3 "" H 5800 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR047
+L power:GND #PWR047
 U 1 1 5B3CAC28
 P 4400 4550
 F 0 "#PWR047" H 4400 4300 50  0001 C CNN
@@ -216,7 +185,7 @@ $EndComp
 Wire Wire Line
 	4700 4550 4400 4550
 $Comp
-L GND #PWR048
+L power:GND #PWR048
 U 1 1 5B3CAFE2
 P 5650 3700
 F 0 "#PWR048" H 5650 3450 50  0001 C CNN

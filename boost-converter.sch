@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C5
+L Device:C C5
 U 1 1 56BE95FE
 P 2900 4750
 F 0 "C5" H 2925 4850 50  0000 L CNN
@@ -57,7 +26,7 @@ F 4 "CL21B104KBCNNNC" H 2900 4750 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C6
+L Device:CP C6
 U 1 1 56BE9601
 P 2200 3850
 F 0 "C6" H 2225 3950 50  0000 L CNN
@@ -69,7 +38,7 @@ F 4 "T491X107K025AT" H 2200 3850 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L Device:L L1
 U 1 1 56BE9603
 P 4250 3400
 F 0 "L1" V 4200 3400 50  0000 C CNN
@@ -81,7 +50,7 @@ F 4 "SRR1210-470M" H 4250 3400 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L D D1
+L Device:D D1
 U 1 1 56BE9605
 P 5050 3700
 F 0 "D1" H 5050 3800 50  0000 C CNN
@@ -93,7 +62,7 @@ F 4 "VS-4EGU06-M3/5BT" H 5050 3700 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP C7
+L Device:CP C7
 U 1 1 56BE9606
 P 5350 4300
 F 0 "C7" H 5375 4400 50  0000 L CNN
@@ -105,7 +74,7 @@ F 4 "EEV-EB2G3R3Q" H 5350 4300 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 56BE9607
 P 5950 4950
 F 0 "R7" V 6030 4950 50  0000 C CNN
@@ -117,7 +86,7 @@ F 4 "RC0805FR-0710KL" H 5950 4950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 56BE9608
 P 5950 4100
 F 0 "R6" V 5850 4100 50  0000 C CNN
@@ -155,7 +124,7 @@ $EndComp
 Text GLabel 8700 3700 2    60   Input ~ 0
 HV
 $Comp
-L R R5
+L Device:R R5
 U 1 1 56BF5E85
 P 4700 5000
 F 0 "R5" V 4780 5000 50  0000 C CNN
@@ -171,7 +140,7 @@ BOOST CONVERTER\nBased on circuit by Nick de Smith\nhttp://desmith.net/NMdS/Elec
 Text GLabel 3100 4200 1    60   Input ~ 0
 D10/SHDN
 $Comp
-L R R8
+L Device:R R8
 U 1 1 56C13B29
 P 7650 4000
 F 0 "R8" V 7730 4000 50  0000 C CNN
@@ -183,7 +152,7 @@ F 4 "HVCB1206KDL2M00" H 7650 4000 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 56C13BEC
 P 7650 5000
 F 0 "R9" V 7730 5000 50  0000 C CNN
@@ -209,7 +178,7 @@ F 4 "HV7802MG-G" H 8400 4450 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Device:R R13
 U 1 1 56BEB254
 P 8400 3900
 F 0 "R13" V 8300 3900 50  0000 C CNN
@@ -221,7 +190,7 @@ F 4 "RC0805FR-075K1L" H 8400 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L Device:R R14
 U 1 1 56BEC206
 P 8550 3700
 F 0 "R14" V 8450 3700 50  0000 C CNN
@@ -233,7 +202,7 @@ F 4 "ERJ-6DQJ1R0V" H 8550 3700 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L Device:R R16
 U 1 1 56BEC2BD
 P 8700 3900
 F 0 "R16" V 8600 3900 50  0000 C CNN
@@ -245,7 +214,7 @@ F 4 "RC0805FR-07100KL" H 8700 3900 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R15
+L Device:R R15
 U 1 1 56BECCAC
 P 8550 5000
 F 0 "R15" V 8630 5000 50  0000 C CNN
@@ -257,7 +226,7 @@ F 4 "RC0805FR-0751KL" H 8550 5000 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C8
+L Device:C C8
 U 1 1 56C02E02
 P 6550 4100
 F 0 "C8" V 6500 4150 50  0000 L CNN
@@ -269,7 +238,7 @@ F 4 "CL21B104KBCNNNC" H 6550 4100 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L CP C1
+L Device:CP C1
 U 1 1 56BE9600
 P 2500 3850
 F 0 "C1" H 2525 3950 50  0000 L CNN
@@ -297,7 +266,7 @@ F 4 "CAT5171TBI-50GT3" H 6400 4600 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R38
+L Device:R R38
 U 1 1 58BB654C
 P 4250 4200
 F 0 "R38" V 4150 4200 50  0000 C CNN
@@ -309,7 +278,7 @@ F 4 "RC0805FR-0710RL" H 4250 4200 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R39
+L Device:R R39
 U 1 1 58BB914D
 P 4850 3400
 F 0 "R39" V 4950 3400 50  0000 C CNN
@@ -321,7 +290,7 @@ F 4 "RC0805FR-0710RL" H 4850 3400 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C24
+L Device:C C24
 U 1 1 58BB9423
 P 5150 3400
 F 0 "C24" V 5100 3450 50  0000 L CNN
@@ -333,7 +302,7 @@ F 4 "501R15W102KV4E" H 5150 3400 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C30
+L Device:C_Small C30
 U 1 1 58BEFA2F
 P 7250 4400
 F 0 "C30" H 7050 4400 50  0000 L CNN
@@ -345,7 +314,7 @@ F 4 "CL21C151JBANNNC" H 7250 4400 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R46
+L Device:R R46
 U 1 1 58BEFA35
 P 7100 4500
 F 0 "R46" V 7050 4300 50  0000 C CNN
@@ -357,7 +326,7 @@ F 4 "RC0805FR-0751RL" H 7100 4500 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R47
+L Device:R R47
 U 1 1 58BEFA3B
 P 7100 4600
 F 0 "R47" V 7050 4400 50  0000 C CNN
@@ -369,7 +338,7 @@ F 4 "RC0805FR-0751RL" H 7100 4600 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C31
+L Device:C_Small C31
 U 1 1 58BEFA41
 P 7250 4700
 F 0 "C31" H 7050 4700 50  0000 L CNN
@@ -381,7 +350,7 @@ F 4 "CL21C151JBANNNC" H 7250 4700 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R48
+L Device:R R48
 U 1 1 58BF0670
 P 7400 4500
 F 0 "R48" V 7300 4650 50  0000 C CNN
@@ -393,7 +362,7 @@ F 4 "RC0805FR-07150RL" H 7400 4500 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R49
+L Device:R R49
 U 1 1 58BF0676
 P 7400 4600
 F 0 "R49" V 7500 4750 50  0000 C CNN
@@ -411,7 +380,7 @@ D5/SSCL
 Text GLabel 7550 4500 2    60   Input ~ 0
 D4/SSDA
 $Comp
-L C C2
+L Device:C C2
 U 1 1 58CA2C47
 P 2750 3850
 F 0 "C2" H 2600 3750 50  0000 L CNN
@@ -423,7 +392,7 @@ F 4 "CL21B104KBCNNNC" H 2750 3850 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C19
+L Device:C C19
 U 1 1 5947498F
 P 5650 4100
 F 0 "C19" H 5500 4000 50  0000 L CNN
@@ -554,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4250 5650 4700
 $Comp
-L C C21
+L Device:C C21
 U 1 1 5947519B
 P 5650 4850
 F 0 "C21" H 5500 4750 50  0000 L CNN
@@ -581,7 +550,7 @@ Connection ~ 3600 3400
 Wire Wire Line
 	3100 4500 3100 5150
 $Comp
-L +12V #PWR040
+L power:+12V #PWR040
 U 1 1 5B3BF4CF
 P 2200 3400
 F 0 "#PWR040" H 2200 3250 50  0001 C CNN
@@ -592,7 +561,7 @@ F 3 "" H 2200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR041
+L power:+3.3V #PWR041
 U 1 1 5B3BFA2D
 P 6300 4100
 F 0 "#PWR041" H 6300 3950 50  0001 C CNN
@@ -605,7 +574,7 @@ $EndComp
 Wire Wire Line
 	6400 4100 6300 4100
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 5B3C8BB3
 P 2200 5150
 F 0 "#PWR042" H 2200 4900 50  0001 C CNN
@@ -616,7 +585,7 @@ F 3 "" H 2200 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 5B3C90C5
 P 6900 4100
 F 0 "#PWR043" H 6900 3850 50  0001 C CNN
