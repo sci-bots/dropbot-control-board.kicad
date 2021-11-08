@@ -18,7 +18,7 @@ This design is open-source hardware released under a [Creative Commons Attributi
 
 [![Creative Commons Attribution-ShareAlike 3.0 Unported License](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)][cc-by-sa]
 
-[dropbot]: https://github.com/dropbot-v3
+[dropbot]: https://github.com/sci-bots/dropbot-v3
 [sci-bots]: https://sci-bots.com/
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0
 
