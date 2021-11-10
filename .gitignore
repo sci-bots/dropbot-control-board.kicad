@@ -3,3 +3,4 @@ _autosave*
 *cache.*
 *rescue.lib
 *.xml
+.ipynb_checkpoints

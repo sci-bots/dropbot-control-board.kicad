@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -83,12 +52,12 @@ Wire Wire Line
 Wire Wire Line
 	4850 3450 4750 3450
 Wire Wire Line
-	4750 3250 4750 4150
+	4750 3250 4750 3450
 Wire Wire Line
 	4750 3850 4850 3850
 Connection ~ 4750 3450
 Wire Wire Line
-	5550 3250 5550 4150
+	5550 3250 5550 3450
 Wire Wire Line
 	5550 3850 5450 3850
 Wire Wire Line
@@ -117,7 +86,7 @@ F 4 "742792040" H 4550 4050 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 3200 4550 3900
+	4550 3200 4550 3650
 $Comp
 L FERRITE FB8
 U 1 1 58BE422E
@@ -131,9 +100,9 @@ F 4 "742792040" H 4550 4550 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4550 4200 4550 4400
+	4550 4200 4550 4300
 $Comp
-L C_Small C39
+L Device:C_Small C39
 U 1 1 58BE5178
 P 4250 4300
 F 0 "C39" V 4300 4350 50  0000 L CNN
@@ -207,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4700 5400 4700
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5B3C7E87
 P 4800 5100
 F 0 "#PWR025" H 4800 4850 50  0001 C CNN
@@ -217,4 +186,16 @@ F 3 "" H 4800 5100 50  0001 C CNN
 	1    4800 5100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 3450 4750 3850
+Wire Wire Line
+	5550 3450 5550 3850
+Wire Wire Line
+	4750 3850 4750 4150
+Wire Wire Line
+	5550 3850 5550 4150
+Wire Wire Line
+	4550 4300 4550 4400
+Wire Wire Line
+	4550 3650 4550 3900
 $EndSCHEMATC

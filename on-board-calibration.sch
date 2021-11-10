@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -69,7 +38,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 5550 3900 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12
+L Device:C C12
 U 1 1 57E388D0
 P 4800 4650
 F 0 "C12" H 4825 4750 50  0000 L CNN
@@ -87,7 +56,7 @@ D0
 Text GLabel 5600 3050 2    60   Input ~ 0
 D1
 $Comp
-L R R24
+L Device:R R24
 U 1 1 57E388D5
 P 4550 3350
 F 0 "R24" V 4630 3350 50  0000 C CNN
@@ -99,7 +68,7 @@ F 4 "RC0805FR-07100RL" H 4550 3350 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L Device:R R28
 U 1 1 57E388D6
 P 5050 3350
 F 0 "R28" V 5130 3350 50  0000 C CNN
@@ -111,7 +80,7 @@ F 4 "RC0805FR-07100RL" H 5050 3350 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L Device:R R29
 U 1 1 57E388D7
 P 5300 3350
 F 0 "R29" V 5380 3350 50  0000 C CNN
@@ -123,7 +92,7 @@ F 4 "RC0805FR-07100RL" H 5300 3350 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R30
+L Device:R R30
 U 1 1 57E388D8
 P 5800 3350
 F 0 "R30" V 5880 3350 50  0000 C CNN
@@ -143,7 +112,7 @@ C12-14 should be\nrated for >100V
 Wire Wire Line
 	4750 3500 4850 3500
 $Comp
-L C C13
+L Device:C C13
 U 1 1 57E388D1
 P 5550 4650
 F 0 "C13" H 5575 4750 50  0000 L CNN
@@ -168,7 +137,7 @@ Wire Wire Line
 Connection ~ 5550 4300
 Connection ~ 4800 4800
 $Comp
-L R R31
+L Device:R R31
 U 1 1 591C6194
 P 4700 3050
 F 0 "R31" V 4600 3050 50  0000 C CNN
@@ -186,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 3200 5050 3150
 $Comp
-L R R32
+L Device:R R32
 U 1 1 591C662A
 P 5450 3050
 F 0 "R32" V 5350 3050 50  0000 C CNN
@@ -225,7 +194,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 6300 3900 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R54
+L Device:R R54
 U 1 1 591E724C
 P 6050 3350
 F 0 "R54" V 6130 3350 50  0000 C CNN
@@ -237,7 +206,7 @@ F 4 "RC0805FR-07100RL" H 6050 3350 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R56
+L Device:R R56
 U 1 1 591E72A2
 P 6550 3350
 F 0 "R56" V 6630 3350 50  0000 C CNN
@@ -254,7 +223,7 @@ Connection ~ 6550 3150
 Text GLabel 6550 4300 3    60   Input ~ 0
 HVAC
 $Comp
-L C C14
+L Device:C C14
 U 1 1 591E7390
 P 6300 4650
 F 0 "C14" H 6325 4750 50  0000 L CNN
@@ -274,7 +243,7 @@ Connection ~ 5550 4800
 Text GLabel 6350 3050 2    60   Input ~ 0
 D2
 $Comp
-L R R55
+L Device:R R55
 U 1 1 591E74B6
 P 6200 3050
 F 0 "R55" V 6100 3050 50  0000 C CNN
@@ -294,7 +263,7 @@ GND
 Wire Wire Line
 	6350 3500 6250 3500
 $Comp
-L +3.3V #PWR026
+L power:+3.3V #PWR026
 U 1 1 5B3BEE57
 P 6850 3150
 F 0 "#PWR026" H 6850 3000 50  0001 C CNN
@@ -305,7 +274,7 @@ F 3 "" H 6850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5B3C828A
 P 4400 3050
 F 0 "#PWR027" H 4400 2800 50  0001 C CNN
@@ -318,7 +287,7 @@ $EndComp
 Wire Wire Line
 	4400 3050 4550 3050
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5B3C84B2
 P 4550 4300
 F 0 "#PWR028" H 4550 4050 50  0001 C CNN
@@ -329,7 +298,7 @@ F 3 "" H 4550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5B3C8624
 P 5300 4300
 F 0 "#PWR029" H 5300 4050 50  0001 C CNN
@@ -340,7 +309,7 @@ F 3 "" H 5300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 5B3C8721
 P 6050 4300
 F 0 "#PWR030" H 6050 4050 50  0001 C CNN

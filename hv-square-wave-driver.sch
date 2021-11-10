@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -61,7 +30,7 @@ F 4 "NCP5304DR2G" H 4900 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2
+L Device:D D2
 U 1 1 58D0BD5A
 P 4900 3200
 F 0 "D2" H 4900 3300 50  0000 C CNN
@@ -73,7 +42,7 @@ F 4 "US1J-13-F" H 4900 3200 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 58D0BD61
 P 4600 3300
 F 0 "C3" H 4750 3250 50  0000 L CNN
@@ -87,7 +56,7 @@ $EndComp
 Text GLabel 6100 3550 1    60   Input ~ 0
 HV
 $Comp
-L D D3
+L Device:D D3
 U 1 1 58D0BD6B
 P 4900 4400
 F 0 "D3" H 4900 4500 50  0000 C CNN
@@ -99,7 +68,7 @@ F 4 "US1J-13-F" H 4900 4400 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R21
+L Device:R R21
 U 1 1 58D0BD72
 P 5750 3950
 F 0 "R21" V 5830 3950 50  0000 C CNN
@@ -113,7 +82,7 @@ $EndComp
 Text GLabel 6850 3950 1    60   Input ~ 0
 HVAC
 $Comp
-L R R22
+L Device:R R22
 U 1 1 58D0BD7A
 P 6300 4250
 F 0 "R22" V 6400 4200 50  0000 C CNN
@@ -125,7 +94,7 @@ F 4 "HVCB1206KDL2M00" H 6300 4250 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q5
+L Device:Q_NMOS_GDS Q5
 U 1 1 58D0BD81
 P 6000 3750
 F 0 "Q5" H 6000 3900 50  0000 R CNN
@@ -137,7 +106,7 @@ F 4 "IRF740BPBF" H 6000 3750 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q6
+L Device:Q_NMOS_GDS Q6
 U 1 1 58D0BD88
 P 6000 4150
 F 0 "Q6" H 5900 4200 50  0000 R CNN
@@ -151,7 +120,7 @@ $EndComp
 Text GLabel 4250 3850 0    60   Input ~ 0
 D7/DRIVER_HI
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 58D0BD91
 P 5550 3500
 F 0 "C4" H 5400 3600 50  0000 L CNN
@@ -163,7 +132,7 @@ F 4 "C1210C104KCRACTU" H 5550 3500 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C10
+L Device:C_Small C10
 U 1 1 58D0BD98
 P 6200 3950
 F 0 "C10" V 6100 3900 50  0000 L CNN
@@ -175,7 +144,7 @@ F 4 "C1210C104KCRACTU" H 6200 3950 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R37
+L Device:R R37
 U 1 1 58D0BD9F
 P 5650 3750
 F 0 "R37" V 5730 3750 50  0000 C CNN
@@ -187,7 +156,7 @@ F 4 "RC0805FR-0710RL" H 5650 3750 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R18
+L Device:R R18
 U 1 1 58D0BDA6
 P 5600 4150
 F 0 "R18" V 5680 4150 50  0000 C CNN
@@ -211,7 +180,7 @@ F 4 "742792040" H 6650 3950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C35
+L Device:C_Small C35
 U 1 1 58D0BDBA
 P 6850 4350
 F 0 "C35" H 6950 4400 50  0000 L CNN
@@ -278,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4450 6300 4400
 $Comp
-L Fuse_Small F1
+L Device:Fuse_Small F1
 U 1 1 5931BF6A
 P 6400 3950
 F 0 "F1" H 6400 3890 50  0000 C CNN
@@ -290,7 +259,7 @@ F 4 "B59773B0120A070" H 6400 3950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR031
+L power:+12V #PWR031
 U 1 1 5B3C009D
 P 4050 3200
 F 0 "#PWR031" H 4050 3050 50  0001 C CNN
@@ -302,7 +271,7 @@ F 3 "" H 4050 3200 50  0001 C CNN
 $EndComp
 Connection ~ 4300 3200
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5B3C9B2A
 P 4600 3400
 F 0 "#PWR032" H 4600 3150 50  0001 C CNN
@@ -313,7 +282,7 @@ F 3 "" H 4600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5B3C9BB4
 P 4350 4400
 F 0 "#PWR033" H 4350 4150 50  0001 C CNN
@@ -324,7 +293,7 @@ F 3 "" H 4350 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5B3C9C0A
 P 6100 4450
 F 0 "#PWR034" H 6100 4200 50  0001 C CNN

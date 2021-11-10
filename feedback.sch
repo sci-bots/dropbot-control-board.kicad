@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:dropbot_control_board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R25
+L Device:R R25
 U 1 1 57E388BE
 P 7150 4150
 F 0 "R25" H 7300 4150 50  0000 C CNN
@@ -57,7 +26,7 @@ F 4 "RC0805FR-0710KL" H 7150 4150 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L Device:R R26
 U 1 1 57E388BF
 P 7150 4450
 F 0 "R26" H 7300 4450 50  0000 C CNN
@@ -69,7 +38,7 @@ F 4 "RC0805FR-072K2L" H 7150 4450 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L Device:C C17
 U 1 1 57E388C0
 P 6900 4450
 F 0 "C17" H 6700 4550 50  0000 L CNN
@@ -81,7 +50,7 @@ F 4 "CL21B104KBCNNNC" H 6900 4450 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L Device:R R27
 U 1 1 57E388C1
 P 4950 3950
 F 0 "R27" H 5100 3950 50  0000 C CNN
@@ -93,7 +62,7 @@ F 4 "RC0805FR-07100KL" H 4950 3950 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L Device:C C16
 U 1 1 57E388C2
 P 4700 3950
 F 0 "C16" H 4450 4050 50  0000 L CNN
@@ -107,7 +76,7 @@ $EndComp
 Text GLabel 6550 4100 2    60   Input ~ 0
 +0.6V
 $Comp
-L C C20
+L Device:C C20
 U 1 1 57E388CA
 P 5850 3400
 F 0 "C20" H 5875 3500 50  0000 L CNN
@@ -121,7 +90,7 @@ $EndComp
 Text Notes 5200 3100 0    60   ~ 0
 first-order low-pass\nanti-aliasing filter
 $Comp
-L C C18
+L Device:C C18
 U 1 1 57E388CC
 P 7550 4450
 F 0 "C18" H 7575 4550 50  0000 L CNN
@@ -137,7 +106,7 @@ CURRENT-TO-VOLTAGE\nCONVERTER
 Text GLabel 3200 4100 0    60   Input ~ 0
 CUR_SENSE
 $Comp
-L R R23
+L Device:R R23
 U 1 1 57E5CF28
 P 3650 4450
 F 0 "R23" V 3550 4450 50  0000 C CNN
@@ -149,7 +118,7 @@ F 4 "RC0805FR-071ML" H 3650 4450 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse_Small F2
+L Device:Fuse_Small F2
 U 1 1 58BC51B6
 P 3450 4100
 F 0 "F2" H 3410 4160 50  0000 L CNN
@@ -174,7 +143,7 @@ F 4 "TBAV99,LM" H 4150 3700 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Connection ~ 7150 4300
 $Comp
-L C_Small C11
+L Device:C_Small C11
 U 1 1 58C6E481
 P 3900 4100
 F 0 "C11" V 3750 4050 50  0000 L CNN
@@ -234,7 +203,7 @@ Wire Wire Line
 	5250 4300 5250 4600
 Connection ~ 5250 4600
 $Comp
-L R R33
+L Device:R R33
 U 1 1 591D56C4
 P 4950 4350
 F 0 "R33" V 5030 4350 50  0000 C CNN
@@ -252,7 +221,7 @@ Text GLabel 4900 4500 0    60   Input ~ 0
 Wire Wire Line
 	4900 4500 4950 4500
 $Comp
-L R R34
+L Device:R R34
 U 1 1 591D8457
 P 5400 3250
 F 0 "R34" V 5480 3250 50  0000 C CNN
@@ -265,7 +234,7 @@ F 4 "RC0805FR-075K1L" H 5400 3250 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Connection ~ 5250 3800
 $Comp
-L C_Small C15
+L Device:C_Small C15
 U 1 1 591D89BB
 P 6200 3250
 F 0 "C15" V 6050 3200 50  0000 L CNN
@@ -278,7 +247,7 @@ F 4 "CC0805KKX7R9BB105" H 6200 3250 60  0001 C CNN "Mfg_Part_No"
 $EndComp
 Connection ~ 5850 3250
 $Comp
-L R R53
+L Device:R R53
 U 1 1 591D8A9A
 P 6500 3400
 F 0 "R53" H 6650 3400 50  0000 C CNN
@@ -299,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3250 6750 3250
 $Comp
-L +3.3V #PWR035
+L power:+3.3V #PWR035
 U 1 1 5B3C0391
 P 4450 3700
 F 0 "#PWR035" H 4450 3550 50  0001 C CNN
@@ -310,7 +279,7 @@ F 3 "" H 4450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR036
+L power:+3.3V #PWR036
 U 1 1 5B3C07F1
 P 7550 4000
 F 0 "#PWR036" H 7550 3850 50  0001 C CNN
@@ -321,7 +290,7 @@ F 3 "" H 7550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5B3CA0DD
 P 3850 3700
 F 0 "#PWR037" H 3850 3450 50  0001 C CNN
@@ -332,7 +301,7 @@ F 3 "" H 3850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 5B3CA4E0
 P 3650 4600
 F 0 "#PWR038" H 3650 4350 50  0001 C CNN
@@ -343,7 +312,7 @@ F 3 "" H 3650 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5B3CA54D
 P 5850 3550
 F 0 "#PWR039" H 5850 3300 50  0001 C CNN
