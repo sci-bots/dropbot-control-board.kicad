@@ -130,7 +130,7 @@ F 4 "B59807A0090A062" H 3450 4100 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L BAV99 D4
+L sci-bots:BAV99 D4
 U 1 1 58BCBFA7
 P 4150 3700
 F 0 "D4" H 4000 3600 50  0000 C CNN
@@ -155,7 +155,7 @@ F 4 "CC0805KKX7R9BB105" H 3900 4100 60  0001 C CNN "Mfg_Part_No"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCP6022 U11
+L sci-bots:MCP6022 U11
 U 1 1 591D0EAB
 P 5900 4150
 F 0 "U11" H 5900 4500 60  0000 C CNN
@@ -167,11 +167,11 @@ F 4 "ED08DT" H 5900 4150 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4100 5250 4100
+	4000 4100 4150 4100
 Connection ~ 4950 4100
 Connection ~ 4700 4100
 Wire Wire Line
-	3550 4100 3800 4100
+	3550 4100 3650 4100
 Wire Wire Line
 	3200 4100 3350 4100
 Wire Wire Line
@@ -181,24 +181,24 @@ Wire Wire Line
 	4150 3900 4150 4100
 Connection ~ 4150 4100
 Wire Wire Line
-	4700 3800 5250 3800
+	4700 3800 4950 3800
 Wire Wire Line
-	5250 3250 5250 4000
+	5250 3250 5250 3800
 Connection ~ 4950 3800
 Wire Wire Line
 	6550 4100 6550 4200
 Connection ~ 6900 4300
 Wire Wire Line
-	3650 4600 7550 4600
+	3650 4600 5250 4600
 Connection ~ 6900 4600
 Wire Wire Line
 	7550 4000 7550 4300
 Wire Wire Line
-	6550 4000 7550 4000
+	6550 4000 7150 4000
 Connection ~ 7150 4000
 Connection ~ 7150 4600
 Wire Wire Line
-	6550 4300 7150 4300
+	6550 4300 6900 4300
 Wire Wire Line
 	5250 4300 5250 4600
 Connection ~ 5250 4600
@@ -264,9 +264,9 @@ Connection ~ 6500 3250
 Text GLabel 6500 3550 2    60   Input ~ 0
 +0.6V
 Wire Wire Line
-	5550 3250 6100 3250
+	5550 3250 5850 3250
 Wire Wire Line
-	6300 3250 6750 3250
+	6300 3250 6500 3250
 $Comp
 L power:+3.3V #PWR035
 U 1 1 5B3C0391
@@ -322,4 +322,30 @@ F 3 "" H 5850 3550 50  0001 C CNN
 	1    5850 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 4100 5250 4100
+Wire Wire Line
+	4700 4100 4950 4100
+Wire Wire Line
+	3650 4100 3800 4100
+Wire Wire Line
+	4150 4100 4700 4100
+Wire Wire Line
+	4950 3800 5250 3800
+Wire Wire Line
+	6900 4300 7150 4300
+Wire Wire Line
+	6900 4600 7150 4600
+Wire Wire Line
+	7150 4000 7550 4000
+Wire Wire Line
+	7150 4600 7550 4600
+Wire Wire Line
+	5250 4600 6900 4600
+Wire Wire Line
+	5250 3800 5250 4000
+Wire Wire Line
+	5850 3250 6100 3250
+Wire Wire Line
+	6500 3250 6750 3250
 $EndSCHEMATC

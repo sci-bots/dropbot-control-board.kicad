@@ -18,7 +18,7 @@ USB PASSTHROUGH\nIncludes ESD protection and\nEMI suppression (See Wurth\nElectr
 Text GLabel 5700 3650 2    60   Input ~ 0
 CHASIS_GND
 $Comp
-L WE-TVS_824015 D5
+L sci-bots:WE-TVS_824015 D5
 U 1 1 58BAFF99
 P 5150 3650
 F 0 "D5" V 4800 3600 45  0000 L BNN
@@ -30,7 +30,7 @@ F 4 "824015" H 5150 3650 60  0001 C CNN "Mfg_Part_No"
 	0    -1   1    0   
 $EndComp
 $Comp
-L CM_CHOKE L2
+L sci-bots:CM_CHOKE L2
 U 1 1 58BBE1AE
 P 5150 4300
 F 0 "L2" H 5250 4350 50  0000 L CNN
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4150 5200 4200
 $Comp
-L FERRITE FB7
+L sci-bots:FERRITE FB7
 U 1 1 58BE3979
 P 4550 4050
 F 0 "FB7" H 4425 4225 50  0000 L CNN
@@ -88,7 +88,7 @@ $EndComp
 Wire Wire Line
 	4550 3200 4550 3650
 $Comp
-L FERRITE FB8
+L sci-bots:FERRITE FB8
 U 1 1 58BE422E
 P 4550 4550
 F 0 "FB8" H 4425 4725 50  0000 L CNN
@@ -117,10 +117,6 @@ Connection ~ 4550 4300
 Connection ~ 4550 3650
 Wire Wire Line
 	4850 3650 4550 3650
-Text GLabel 5200 4550 2    60   Input ~ 0
-D+
-Text GLabel 5100 4550 0    60   Input ~ 0
-D-
 Wire Wire Line
 	4350 4300 4550 4300
 Text GLabel 3950 4300 0    60   Input ~ 0
@@ -128,7 +124,7 @@ CHASIS_GND
 Wire Wire Line
 	3950 4300 4150 4300
 $Comp
-L USB_B P6
+L Connector:USB_B P6
 U 1 1 59320548
 P 5200 2800
 F 0 "P6" H 5000 3250 50  0000 L CNN
@@ -146,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3650 5450 3650
 $Comp
-L USB_A P9
+L Connector:USB_A P9
 U 1 1 59320AF4
 P 5200 5000
 F 0 "P9" H 5000 5450 50  0000 L CNN
@@ -198,4 +194,20 @@ Wire Wire Line
 	4550 4300 4550 4400
 Wire Wire Line
 	4550 3650 4550 3900
+Text Label 5100 4600 2    60   ~ 0
+D-
+Text Label 5200 4600 0    60   ~ 0
+D+
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 61967CD9
+P 4550 5300
+F 0 "#FLG0104" H 4550 5375 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 5473 50  0000 C CNN
+F 2 "" H 4550 5300 50  0001 C CNN
+F 3 "~" H 4550 5300 50  0001 C CNN
+	1    4550 5300
+	-1   0    0    1   
+$EndComp
+Connection ~ 4550 5300
 $EndSCHEMATC

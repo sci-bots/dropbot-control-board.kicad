@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AQW216 U7
+L sci-bots:AQW214 U7
 U 1 1 57E388CE
 P 4800 3900
 F 0 "U7" H 4800 3450 60  0000 C CNN
@@ -26,7 +26,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4800 3900 60  0001 C CNN "Mfg_Part_No"
 	0    1    1    0   
 $EndComp
 $Comp
-L AQW216 U8
+L sci-bots:AQW214 U8
 U 1 1 57E388CF
 P 5550 3900
 F 0 "U8" H 5550 4250 60  0000 C CNN
@@ -124,14 +124,14 @@ F 4 "CL21C101JECNNWC" H 5550 4650 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 4300 4850 4300
+	4750 4300 4800 4300
 Wire Wire Line
 	4800 4300 4800 4500
 Connection ~ 4800 4300
 Wire Wire Line
-	4550 4800 6300 4800
+	4550 4800 4800 4800
 Wire Wire Line
-	5500 4300 5600 4300
+	5500 4300 5550 4300
 Wire Wire Line
 	5550 4500 5550 4300
 Connection ~ 5550 4300
@@ -178,11 +178,11 @@ Wire Wire Line
 Text GLabel 5800 4300 3    60   Input ~ 0
 HVAC
 Wire Wire Line
-	5050 3150 6850 3150
+	5050 3150 5800 3150
 Text GLabel 5300 3050 0    60   Input ~ 0
 GND
 $Comp
-L AQW216 U12
+L sci-bots:AQW214 U12
 U 1 1 591E71DB
 P 6300 3900
 F 0 "U12" H 6300 4250 60  0000 C CNN
@@ -235,7 +235,7 @@ F 4 "CL21C471JDFNNWG" H 6300 4650 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 4300 6350 4300
+	6250 4300 6300 4300
 Wire Wire Line
 	6300 4500 6300 4300
 Connection ~ 6300 4300
@@ -319,4 +319,18 @@ F 3 "" H 6050 4300 50  0001 C CNN
 	1    6050 4300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4800 4300 4850 4300
+Wire Wire Line
+	5550 4300 5600 4300
+Wire Wire Line
+	4800 4800 5550 4800
+Wire Wire Line
+	5800 3150 6550 3150
+Wire Wire Line
+	6550 3150 6850 3150
+Wire Wire Line
+	6300 4300 6350 4300
+Wire Wire Line
+	5550 4800 6300 4800
 $EndSCHEMATC

@@ -15,8 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 3100 700  0    60   ~ 0
 EDGE CONNECTOR
-Text Notes 650  700  0    60   ~ 0
-POWER
 $Comp
 L Device:LED LED2
 U 1 1 52E82588
@@ -82,7 +80,7 @@ D8/OUTPUT_SELECT
 Text GLabel 5850 4350 0    60   Input ~ 0
 D10/SHDN
 $Comp
-L CONN_01X03 P8
+L Connector_Generic:Conn_01x03 P8
 U 1 1 5710F76D
 P 850 3250
 F 0 "P8" H 850 3450 50  0000 C CNN
@@ -129,14 +127,14 @@ D1
 Text GLabel 5850 3150 0    60   Input ~ 0
 D2
 $Comp
-L CONN_01X04 P7
+L Connector_Generic:Conn_01x04 P7
 U 1 1 57E6A3DC
-P 850 2650
-F 0 "P7" H 850 2900 50  0000 C CNN
-F 1 "CONN_01X04" V 950 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 850 2650 50  0001 C CNN
-F 3 "" H 850 2650 50  0000 C CNN
-	1    850  2650
+P 850 2600
+F 0 "P7" H 850 2850 50  0000 C CNN
+F 1 "CONN_01X04" V 950 2600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 850 2600 50  0001 C CNN
+F 3 "" H 850 2600 50  0000 C CNN
+	1    850  2600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -193,10 +191,6 @@ Text GLabel 2750 2500 2    60   Input ~ 0
 +0.6V
 Text GLabel 2750 3000 2    60   Input ~ 0
 A11
-Text GLabel 7850 3600 2    60   Input ~ 0
-A6
-Text GLabel 7850 3450 2    60   Input ~ 0
-A7
 Text Notes 2450 2100 0    60   ~ 0
 FEEDBACK BREAKOUTS
 $Comp
@@ -211,25 +205,13 @@ F 4 "RC0805FR-075K1L" H 4450 4900 60  0001 C CNN "Mfg_Part_No"
 	1    4450 4900
 	-1   0    0    1   
 $EndComp
-$Comp
-L W25Q64FV U10
-U 1 1 58526ABE
-P 4850 5200
-F 0 "U10" H 4855 5445 60  0000 C CNN
-F 1 "IS25LP064A-JBLE" H 4850 4945 60  0000 C CNN
-F 2 "Sci-Bots:SSO-8_5.2x5.2mm_Pitch1.27mm" H 4840 5195 60  0001 C CNN
-F 3 "https://www.winbond.com/resource-files/w25q64fv%20revq%2006142016.pdf" H 4840 5195 60  0001 C CNN
-F 4 "IS25LP064A-JBLE" H 4850 5200 60  0001 C CNN "Mfg_Part_No"
-	1    4850 5200
-	1    0    0    -1  
-$EndComp
 Text GLabel 8150 4650 2    60   Input ~ 0
 D13/CLK
 Text GLabel 5150 5250 2    60   Input ~ 0
 D13/CLK
 Text GLabel 5850 4200 0    60   Input ~ 0
 D9/CS
-Text GLabel 4200 5050 0    60   Input ~ 0
+Text GLabel 4050 5050 0    60   Input ~ 0
 D9/CS
 $Comp
 L Device:C C9
@@ -244,7 +226,7 @@ F 4 "CL21B104KBCNNNC" H 4450 4600 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TFM-105-02-X-DH P11
+L sci-bots:TFM-105-02-X-DH P11
 U 1 1 58B71669
 P 3050 900
 F 0 "P11" H 3250 1030 45  0000 L BNN
@@ -338,7 +320,7 @@ F 4 "CL21C151JBANNNC" H 8750 4000 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FERRITE FB1
+L sci-bots:FERRITE FB1
 U 1 1 58BF4C67
 P 9900 4450
 F 0 "FB1" H 9775 4625 50  0000 L CNN
@@ -482,7 +464,7 @@ F 4 "CL21B104KBCNNNC" H 900 1150 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P1
+L Connector_Generic:Conn_01x01 P1
 U 1 1 58C48798
 P 850 1950
 F 0 "P1" H 1000 1950 50  0000 C CNN
@@ -493,7 +475,7 @@ F 3 "" H 850 1950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P2
+L Connector_Generic:Conn_01x01 P2
 U 1 1 58C492B9
 P 850 2050
 F 0 "P2" H 1000 2050 50  0000 C CNN
@@ -520,13 +502,9 @@ F 4 "CL21B104KBCNNNC" H 4600 2350 60  0001 C CNN "Mfg_Part_No"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4200 5050 4450 5050
+	4550 5250 3450 5250
 Wire Wire Line
-	3650 4750 4300 4750
-Wire Wire Line
-	4550 5250 4300 5250
-Wire Wire Line
-	4300 5250 4300 4750
+	3450 5250 3450 4750
 Connection ~ 4450 4750
 Connection ~ 4450 5050
 Wire Wire Line
@@ -602,37 +580,14 @@ Wire Wire Line
 Connection ~ 9400 4450
 Wire Wire Line
 	9150 4450 9400 4450
-Wire Wire Line
-	5250 5350 5150 5350
-Wire Wire Line
-	5850 4650 3800 4650
-Wire Wire Line
-	3800 4650 3800 5150
-Wire Wire Line
-	3800 5150 4250 5150
-Text GLabel 3800 5150 0    60   Input ~ 0
-D12/MISO
-Text GLabel 5250 5350 2    60   Input ~ 0
+Text GLabel 5550 4500 0    60   Input ~ 0
 D11/M0SI
 $Comp
-L Teensy_3.2 U1
-U 1 1 57E388CD
-P 6850 3450
-F 0 "U1" H 6850 3450 60  0000 C CNN
-F 1 "Teensy_3.2" H 6850 4900 60  0000 C CNN
-F 2 "Sci-Bots:Teensy-3.2" H 6950 2900 60  0001 C CNN
-F 3 "" H 6950 2900 60  0000 C CNN
-	1    6850 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 5350 5250 4500
-$Comp
-L FERRITE FB4
+L sci-bots:FERRITE FB4
 U 1 1 58BDE1E4
 P 5700 4500
-F 0 "FB4" H 5450 4550 50  0000 L CNN
-F 1 "FERRITE" H 5550 4400 50  0000 L CNN
+F 0 "FB4" H 5650 4400 50  0000 L CNN
+F 1 "FERRITE" H 5300 4400 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 5700 4400 60  0001 C CNN
 F 3 "" H 5700 4400 60  0000 C CNN
 F 4 "742792040" H 5700 4500 60  0001 C CNN "Mfg_Part_No"
@@ -640,7 +595,7 @@ F 4 "742792040" H 5700 4500 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FERRITE FB3
+L sci-bots:FERRITE FB3
 U 1 1 58BDF573
 P 4400 5150
 F 0 "FB3" H 4100 5100 50  0000 L CNN
@@ -652,7 +607,7 @@ F 4 "742792040" H 4400 5150 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FERRITE FB5
+L sci-bots:FERRITE FB5
 U 1 1 58BE03DE
 P 8000 4650
 F 0 "FB5" H 7950 4550 50  0000 L CNN
@@ -663,10 +618,8 @@ F 4 "742792040" H 8000 4650 60  0001 C CNN "Mfg_Part_No"
 	1    8000 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 4500 5550 4500
 $Comp
-L CONN_01X01 P5
+L Connector_Generic:Conn_01x01 P5
 U 1 1 58BDD867
 P 850 2150
 F 0 "P5" H 1000 2150 50  0000 C CNN
@@ -700,7 +653,7 @@ CHASIS_GND
 Wire Wire Line
 	3950 1750 3050 1750
 $Comp
-L FERRITE FB6
+L sci-bots:FERRITE FB6
 U 1 1 58BF764E
 P 1700 1800
 F 0 "FB6" H 1650 1700 50  0000 L CNN
@@ -761,7 +714,7 @@ F0 "HV square wave driver" 60
 F1 "hv-square-wave-driver.sch" 60
 $EndSheet
 $Comp
-L SPST SW1
+L sci-bots:SPST SW1
 U 1 1 58D17EDA
 P 1300 3900
 F 0 "SW1" H 1300 4000 50  0000 C CNN
@@ -773,7 +726,7 @@ F 4 "PTS840 GK SMTR LFS" H 1300 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P10
+L Connector_Generic:Conn_01x01 P10
 U 1 1 58D19D25
 P 850 3900
 F 0 "P10" H 850 4000 50  0000 C CNN
@@ -802,7 +755,7 @@ F0 "boost-converter" 60
 F1 "boost-converter.sch" 60
 $EndSheet
 $Comp
-L CONN_01X03 P3
+L Connector_Generic:Conn_01x03 P3
 U 1 1 591E29FC
 P 2550 2400
 F 0 "P3" H 2550 2600 50  0000 C CNN
@@ -813,14 +766,14 @@ F 3 "" H 2550 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P4
+L Connector_Generic:Conn_01x02 P4
 U 1 1 591E2BD2
-P 2550 2950
-F 0 "P4" H 2550 3100 50  0000 C CNN
-F 1 "CONN_01X02" V 2650 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2550 2950 50  0001 C CNN
-F 3 "" H 2550 2950 50  0000 C CNN
-	1    2550 2950
+P 2550 2900
+F 0 "P4" H 2550 3050 50  0000 C CNN
+F 1 "CONN_01X02" V 2650 2900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0000 C CNN
+	1    2550 2900
 	-1   0    0    -1  
 $EndComp
 $Sheet
@@ -850,17 +803,6 @@ Text GLabel 1050 3900 3    60   Input ~ 0
 PROG
 Text GLabel 7050 5200 3    60   Input ~ 0
 PROG
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5B3BADD9
-P 1350 800
-F 0 "#PWR01" H 1350 650 50  0001 C CNN
-F 1 "+3.3V" H 1350 940 50  0000 C CNN
-F 2 "" H 1350 800 50  0001 C CNN
-F 3 "" H 1350 800 50  0001 C CNN
-	1    1350 800 
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+12V #PWR02
 U 1 1 5B3BB012
@@ -905,17 +847,6 @@ F 3 "" H 4600 2250 50  0001 C CNN
 	1    4600 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR06
-U 1 1 5B3BC81D
-P 2700 1000
-F 0 "#PWR06" H 2700 850 50  0001 C CNN
-F 1 "+3.3V" H 2700 1140 50  0000 C CNN
-F 2 "" H 2700 1000 50  0001 C CNN
-F 3 "" H 2700 1000 50  0001 C CNN
-	1    2700 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 1000 3050 1000
 $Comp
@@ -936,15 +867,14 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR08
 U 1 1 5B3BD740
-P 3650 4750
-F 0 "#PWR08" H 3650 4600 50  0001 C CNN
-F 1 "+3.3V" H 3650 4890 50  0000 C CNN
-F 2 "" H 3650 4750 50  0001 C CNN
-F 3 "" H 3650 4750 50  0001 C CNN
-	1    3650 4750
+P 3450 4750
+F 0 "#PWR08" H 3450 4600 50  0001 C CNN
+F 1 "+3.3V" H 3450 4890 50  0000 C CNN
+F 2 "" H 3450 4750 50  0001 C CNN
+F 3 "" H 3450 4750 50  0001 C CNN
+	1    3450 4750
 	1    0    0    -1  
 $EndComp
-Connection ~ 4300 4750
 $Comp
 L power:+3.3V #PWR09
 U 1 1 5B3BDFD9
@@ -1176,13 +1106,125 @@ Wire Wire Line
 Wire Wire Line
 	1350 1950 1700 1950
 Wire Wire Line
-	4300 4750 4450 4750
+	5150 4750 5150 5050
 Wire Wire Line
-	5150 4750 5150 5150
-Wire Wire Line
-	1050 1950 1050 2150
+	1050 1950 1050 2050
 Wire Wire Line
 	3050 1500 3050 1750
 Wire Wire Line
-	3950 1500 3950 1750
+	3950 1500 3950 1600
+Connection ~ 1050 2050
+Wire Wire Line
+	1050 2050 1050 2150
+Connection ~ 5150 5050
+Wire Wire Line
+	5150 5050 5150 5150
+Text GLabel 5150 5350 2    60   Input ~ 0
+D11/M0SI
+$Comp
+L sci-bots:Teensy_3.2 U1
+U 1 1 57E388CD
+P 6850 3450
+F 0 "U1" H 6850 3450 60  0000 C CNN
+F 1 "Teensy_3.2" H 6850 4900 60  0000 C CNN
+F 2 "Sci-Bots:Teensy-3.2" H 6950 2900 60  0001 C CNN
+F 3 "" H 6950 2900 60  0000 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5B3BADD9
+P 1350 800
+F 0 "#PWR01" H 1350 650 50  0001 C CNN
+F 1 "+3.3V" H 1350 940 50  0000 C CNN
+F 2 "" H 1350 800 50  0001 C CNN
+F 3 "" H 1350 800 50  0001 C CNN
+	1    1350 800 
+	1    0    0    -1  
+$EndComp
+Text Notes 650  700  0    60   ~ 0
+POWER
+$Comp
+L sci-bots:W25Q64FV U10
+U 1 1 58526ABE
+P 4850 5200
+F 0 "U10" H 4855 5445 60  0000 C CNN
+F 1 "IS25LP064A-JBLE" H 4850 4945 60  0000 C CNN
+F 2 "Sci-Bots:SSO-8_5.2x5.2mm_Pitch1.27mm" H 4840 5195 60  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q64fv%20revq%2006142016.pdf" H 4840 5195 60  0001 C CNN
+F 4 "IS25LP064A-JBLE" H 4850 5200 60  0001 C CNN "Mfg_Part_No"
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5B3BC81D
+P 2700 1000
+F 0 "#PWR06" H 2700 850 50  0001 C CNN
+F 1 "+3.3V" H 2700 1140 50  0000 C CNN
+F 2 "" H 2700 1000 50  0001 C CNN
+F 3 "" H 2700 1000 50  0001 C CNN
+	1    2700 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 4750 0    60   Input ~ 0
+D12/MISO
+Wire Wire Line
+	5850 4650 5850 4750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 619BB394
+P 4400 1200
+F 0 "#FLG0101" H 4400 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4400 1373 50  0000 C CNN
+F 2 "" H 4400 1200 50  0001 C CNN
+F 3 "~" H 4400 1200 50  0001 C CNN
+	1    4400 1200
+	-1   0    0    1   
+$EndComp
+Connection ~ 4400 1200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 619BC6A8
+P 2400 1000
+F 0 "#FLG0102" H 2400 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 1173 50  0000 C CNN
+F 2 "" H 2400 1000 50  0001 C CNN
+F 3 "~" H 2400 1000 50  0001 C CNN
+	1    2400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1000 2700 1000
+Connection ~ 2700 1000
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 619BF613
+P 2400 1200
+F 0 "#FLG0103" H 2400 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 1373 50  0000 C CNN
+F 2 "" H 2400 1200 50  0001 C CNN
+F 3 "~" H 2400 1200 50  0001 C CNN
+	1    2400 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 1200 2650 1200
+Connection ~ 2650 1200
+Connection ~ 3950 1600
+Wire Wire Line
+	3950 1600 3950 1750
+Text GLabel 4050 5150 0    60   Input ~ 0
+D12/MISO
+Wire Wire Line
+	4050 5050 4450 5050
+Wire Wire Line
+	4250 5150 4050 5150
+Connection ~ 3450 4750
+Wire Wire Line
+	3450 4750 4450 4750
+NoConn ~ 7850 3450
+NoConn ~ 7850 3600
+NoConn ~ 0    400 
 $EndSCHEMATC

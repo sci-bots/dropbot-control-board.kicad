@@ -98,7 +98,7 @@ F 4 "HVCB1206KDL2M00" H 5950 4100 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MAX1771 U2
+L sci-bots:MAX1771 U2
 U 1 1 56BE960B
 P 3600 4350
 F 0 "U2" H 3400 4100 60  0000 C CNN
@@ -110,7 +110,7 @@ F 4 "MAX1771ESA+ " H 3600 4350 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRF644PBF Q1
+L sci-bots:IRF644PBF Q1
 U 1 1 56BE960C
 P 4600 4150
 F 0 "Q1" H 4750 4150 50  0000 L CNN
@@ -166,7 +166,7 @@ $EndComp
 Text GLabel 7650 4200 0    60   Input ~ 0
 A1/HV_FB
 $Comp
-L HV7802 U4
+L sci-bots:HV7802 U4
 U 1 1 56BEB19A
 P 8400 4450
 F 0 "U4" H 8400 4100 60  0000 C CNN
@@ -254,7 +254,7 @@ Q1 should be selected for low Qg, Rdson & Coss\nR6, R8, C7, and C19 must be rate
 Text GLabel 4700 4800 0    60   Input ~ 0
 A3/MAX1771_CS
 $Comp
-L CAT5171 U3
+L sci-bots:CAT5171 U3
 U 1 1 58493EBB
 P 6400 4600
 F 0 "U3" H 6150 4950 50  0000 L CNN
@@ -406,13 +406,12 @@ Wire Wire Line
 	3600 5150 3600 4750
 Connection ~ 3600 5150
 Wire Wire Line
-	4700 3400 4700 3950
+	4700 3400 4700 3700
 Connection ~ 4700 5150
 Wire Wire Line
 	4700 4350 4700 4850
 Wire Wire Line
 	4350 4350 4700 4350
-Connection ~ 4700 4350
 Wire Wire Line
 	2900 5150 2900 4900
 Wire Wire Line
@@ -431,7 +430,7 @@ Wire Wire Line
 	5350 5150 5350 4450
 Connection ~ 5350 5150
 Wire Wire Line
-	4100 4500 6000 4500
+	4100 4500 5650 4500
 Connection ~ 5950 3700
 Wire Wire Line
 	5950 3700 5950 3950
@@ -450,11 +449,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 4200 6400 4100
 Wire Wire Line
-	6700 4100 6900 4100
+	6700 4100 6750 4100
 Wire Wire Line
-	2200 5150 8550 5150
+	2200 5150 2500 5150
 Wire Wire Line
-	5200 3700 8400 3700
+	5200 3700 5350 3700
 Wire Wire Line
 	7650 4850 7650 4150
 Wire Wire Line
@@ -466,7 +465,7 @@ Connection ~ 2900 5150
 Wire Wire Line
 	2500 3700 2500 3400
 Wire Wire Line
-	2200 3400 4100 3400
+	2200 3400 2500 3400
 Wire Wire Line
 	2750 3700 2750 3400
 Connection ~ 2750 3400
@@ -483,8 +482,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 4300 3100 4300
 Wire Wire Line
-	2750 4000 2750 4000
-Wire Wire Line
 	2750 4000 2750 5150
 Connection ~ 2750 5150
 Connection ~ 3100 5150
@@ -493,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3400 5300 3400
 Wire Wire Line
-	5350 3400 5350 4150
+	5350 3400 5350 3700
 Wire Wire Line
 	6800 4500 6950 4500
 Wire Wire Line
@@ -514,14 +511,14 @@ Wire Wire Line
 Wire Wire Line
 	5950 4700 6000 4700
 Wire Wire Line
-	5950 4250 5950 4600
+	5950 4250 5950 4500
 Connection ~ 5950 4500
 Wire Wire Line
 	5950 4600 6000 4600
 Wire Wire Line
 	5650 3700 5650 3950
 Wire Wire Line
-	5650 4250 5650 4700
+	5650 4250 5650 4500
 $Comp
 L Device:C C21
 U 1 1 5947519B
@@ -595,4 +592,62 @@ F 3 "" H 6900 4100 50  0001 C CNN
 	1    6900 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3600 5150 4700 5150
+Wire Wire Line
+	4700 5150 5350 5150
+Wire Wire Line
+	4700 3700 4700 3950
+Wire Wire Line
+	5950 5150 6400 5150
+Wire Wire Line
+	6400 5150 6800 5150
+Wire Wire Line
+	5350 3700 5650 3700
+Wire Wire Line
+	5350 3700 5350 4150
+Wire Wire Line
+	5350 5150 5650 5150
+Wire Wire Line
+	5950 3700 7650 3700
+Wire Wire Line
+	7650 5150 8250 5150
+Wire Wire Line
+	7650 3700 8150 3700
+Wire Wire Line
+	8250 5150 8550 5150
+Wire Wire Line
+	8150 3700 8400 3700
+Wire Wire Line
+	2900 5150 3100 5150
+Wire Wire Line
+	2750 3400 3600 3400
+Wire Wire Line
+	2750 5150 2900 5150
+Wire Wire Line
+	3100 5150 3600 5150
+Wire Wire Line
+	6750 4100 6900 4100
+Wire Wire Line
+	7250 5150 7650 5150
+Wire Wire Line
+	6800 5150 7250 5150
+Wire Wire Line
+	5950 4500 6000 4500
+Wire Wire Line
+	5950 4500 5950 4600
+Wire Wire Line
+	5650 4500 5950 4500
+Wire Wire Line
+	5650 4500 5650 4700
+Wire Wire Line
+	5650 5150 5950 5150
+Wire Wire Line
+	5650 3700 5950 3700
+Wire Wire Line
+	2500 3400 2750 3400
+Wire Wire Line
+	2500 5150 2750 5150
+Wire Wire Line
+	3600 3400 4100 3400
 $EndSCHEMATC
