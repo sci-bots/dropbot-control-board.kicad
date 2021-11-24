@@ -1,0 +1,11 @@
+kibot:
+  version: 1
+
+outputs:
+
+  - name: print_sch_pdf
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+    options:
+      output: '%f-%i%v.%x'

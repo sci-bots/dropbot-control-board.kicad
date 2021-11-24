@@ -1,6 +1,7 @@
 _autosave*
 *bak
-*cache.*
-*rescue.lib
 *.xml
 .ipynb_checkpoints
+*-erc.txt
+*-drc.txt
+kibot_errors.filter
