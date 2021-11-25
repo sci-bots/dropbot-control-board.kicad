@@ -1,5 +1,5 @@
 [![tests](https://github.com/sci-bots/dropbot-control-board.kicad/actions/workflows/build.yml/badge.svg)](https://github.com/sci-bots/dropbot-control-board.kicad/actions/workflows/build.yml)
-[![kitspace](https://raw.githubusercontent.com/sci-bots/dropbot-control-board.kicad/main/docs/svg/kitspace-badge.svg)](https://kitspace.org/boards/github.com/sci-bots/dropbot-control-board.kicad/)
+[![kitspace](https://img.shields.io/badge/kitspace-ok-success)](https://kitspace.org/boards/github.com/sci-bots/dropbot-control-board.kicad/)
 
 # DropBot v3 control board
 
