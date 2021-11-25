@@ -1,4 +1,4 @@
-update=2021-11-17 4:41:13 PM
+update=Date
 version=1
 last_client=kicad
 [general]
@@ -8,23 +8,23 @@ BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=svg
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=dropbot_control_board.net
 CopperLayerCount=4
 BoardThickness=1.6002
 AllowMicroVias=0
@@ -66,7 +66,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.254
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
