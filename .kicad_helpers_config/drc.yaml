@@ -5,3 +5,14 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
+  
+  filters:
+    - filter: 'Track too close to pad 3 of SW1'
+      error: '4'
+      regex:  '36\.400 mm, 82\.300 mm'
+    - filter: 'Track too close to pad 3 of SW1'
+      error: '4'
+      regex:  '36\.957 mm, 82\.296 mm'
+    - filter: 'Unconnected items'
+      error: '2'
+      regex:  '33\.950 mm, 84\.100 mm'
